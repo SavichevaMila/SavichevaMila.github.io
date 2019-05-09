@@ -7,30 +7,44 @@
 body { 
     font-size: 16px; 
     line-height: 32px;
-    font-family: /* Ubuntu, sans-serif */;
-    color: /* #xxxxxx */;
+    font-family: Ubuntu, sans-serif;
+    color: #38674D;
 }
 
 h1 {
-    font-size: /* x.xrem  (rem is a unit of measure) */;
-    color: /* #xxxxxx */;
+    font-size: 3rem;
+    color: #FFF2FF;
 }
 
 h2 {
-    font-size: /* x.xrem */;
+    font-size: 2.5rem;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
 
-header, main, footer {
-    margin: 1.25rem auto;
-    padding: .5rem;
+header, footer {
+    margin: 2.25rem auto;
+    padding: 1.5rem;
     max-width: /* xxxpx (px = pixel is a unit of measure)  */;
+    text-align: center;
+}
+
+main {  
+    font-size: 16px; 
+   line-height: 32px;
+   font-family: Ubuntu, sans-serif;
+   color:  #38674D;
+   text-align: center;
+   border-bottom: 1px solid #0D4D24;
+   border-top: 1px solid #0D4D24;
+   border-bottom: 2px dotted  #0D4D24;
+   border-top: 2px dotted #0D4D24;
+
 }
 
 header, footer, footer a {
     text-align: center;
-    background-color: /* */;
+    background-color: #38674D;
     color: whitesmoke;
 }
 
@@ -41,5 +55,5 @@ header img {
 }
 
 footer {
-    font-size: /* smaller */;
+    font-size: 1.5rem;
 }
