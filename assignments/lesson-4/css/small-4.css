@@ -8,8 +8,8 @@ header img, .headings {
 }
 header img {
     margin-right: 5px;
-    width: 87px;
-    height: 100px;
+    width: 70px;
+    height: 80px;
 }
 header,footer {
     background: #296CF2;
@@ -19,7 +19,7 @@ header,footer {
 }
 h1 {
     font-family: Pacifico, 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 45px;
     color: #ffffff;
     margin-bottom: 0px;
 }
@@ -33,10 +33,10 @@ h1 {
 
 nav {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    color: #ffffff;
+    font-size: 20px;
     text-align: center;
     background: #6393f2;
+    color: #ffffff;
     padding-bottom: 10px;
     }
 nav ul {
