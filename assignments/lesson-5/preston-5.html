@@ -23,10 +23,13 @@
         <nav>
             <ul>
                 <li>
+                    <a href="#" title="Menu" onclick="toggleMenu()">Menu</a>
+                </li>
+                <li>
                     <a href="home.html"> Home</a>
                 </li>
                 <li>
-                    <a href="preston-4.html" class="active"> Preston</a>
+                    <a href="preston-5.html" class="active"> Preston</a>
                 </li>
                 <li>
                     <a href="sodaspring.html">Soda Spring</a>
@@ -44,24 +47,70 @@
         </nav>
         <main>
            <h2>Preston, Idaho</h2> 
-           <p>
-               Weather Summary:
-               Currently: Sunny
-               High:76°F
-               Wind Chill: 78°F
-               Humidity: 69%
-               Wind Speed: 5mph
-           </p>
-           <img alt="dataimage" src="images/dataimage.jpeg">
-           <section>        
-                <h3>Article</h3>
-                <img alt="articleimage" src="images/articleimage.jpeg">
-                <article>Article text goes here</article>
-            </section>
-            <section>
-                <p>Contact information goes here</p>
-                <img alt="map" src="images/map.jpeg">
-            </section>
+           <div class="current">
+                <img alt="Idaho nature" src="images/idahonature.jpg">
+                 <section class="summary">
+                    <h2>Weather Summary:</h2> 
+                    <h3>Currently: Sunny</h3>
+                    <h3>High:73°F</h3>
+                    <h3>Chill: 66°F</h3> 
+                    <h3>Humidity: 79%</h3>
+                    <h3>Wind Speed: 15mph</h3>
+                </section>
+            </div>          
+           <section class="sevenday">
+               <h2>7 Day forecast</h2>
+               <table>
+                   <tbody>
+                       <tr>
+                           <th>Monday</th>
+                           <th>Tuesday</th>
+                           <th>Wednesday</th>
+                           <th>Thursday</th>
+                           <th>Friday</th>
+                           <th>Saturday</th>
+                           <th>Sunday</th>
+                       </tr>
+                       <tr>
+                           <td>
+                               <img alt="Sun graphic image" src="images/sungraphic.png">
+                               <br>
+                               73°F
+                           </td>
+                           <td>
+                                <img alt="Sun graphic image" src="images/sungraphic.png">
+                                <br>
+                                69°F
+                            </td>
+                            <td>
+                               <img alt="Sun graphic image" src="images/sungraphic.png">
+                               <br>
+                               66°F
+                           </td>
+                           <td>
+                                <img alt="Sun graphic image" src="images/sungraphic.png">
+                                <br>
+                                68°F
+                            </td>
+                            <td>
+                                <img alt="Sun graphic image" src="images/sungraphic.png">
+                                <br>
+                                71°F
+                             </td>
+                             <td>
+                                <img alt="Sun graphic image" src="images/sungraphic.png">
+                                <br>
+                                73°F
+                            </td>
+                            <td>
+                                <img alt="Sun graphic image" src="images/sungraphic.png">
+                                <br>
+                                73°F
+                            </td>
+                       </tr>
+                   </tbody>
+               </table>
+           </section>
         </main>
         <footer>
             © 2019  * Idaho Weather Check * Attributions * Lyudmila Savicheva * Date *
