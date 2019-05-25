@@ -54,7 +54,7 @@
 
     /*FORECAST*/
 
-    .fiveday h3 {
+    .sevenday h3 {
         text-align: center;
     }
 
@@ -76,14 +76,14 @@
         border: 1px solid #296cf2;
     }
 
-    .fiveday {
+    .sevenday {
         display: block;
         padding-bottom: 10px;
         text-align: center;
 
     }
 
-    .fiveday img {
+    .sevenday img {
         width: 15px;
         height: 15px;
     }
