@@ -121,7 +121,7 @@ p {
 }
 
 .summary {
-    text-align: right;
+    text-align: center;
     position: absolute;
     bottom: 5px;
     left: 15px;
