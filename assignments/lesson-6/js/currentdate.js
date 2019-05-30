@@ -15,7 +15,7 @@ function currentDate() {
     var month = monthNames[today.getMonth()]; // current month
     var year = today.getFullYear();
         
-   document.getElementById("displayDate").innerHTML = currentDate + "," + day + " " + month + " " + year;
+   document.getElementById("displayDate").innerHTML = currentDate + " , " + day + " " + month + " " + year;
 }
 currentDate();
   
