@@ -10,8 +10,8 @@ function currentDate() {
     weekday[6] = "Saturday";
     var monthNames = ["January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"];    
-    var currentDate = weekday[today.getDay()];
-    var day = today.getDay();     // Get current date
+    var currentDate = weekday[today.getDate()];
+    var day = today.getDate();     // Get current date
     var month = monthNames[today.getMonth()]; // current month
     var year = today.getFullYear();
         
