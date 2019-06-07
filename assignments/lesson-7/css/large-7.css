@@ -1,7 +1,9 @@
 /*NAVIGATION*/
 @media only screen and (min-width: 45em) {
 
-   
+    .navigation {
+            flex-direction: row;
+        }
 
     .navigation li:first-child {
         display: none;
@@ -121,6 +123,10 @@
     }
 
     /*INFORMATION*/
+    .contact{
+        padding: 40px;
+    }
+
     .contact h3 {
         line-height: .1;
         padding-left: 40px;
@@ -149,8 +155,7 @@
       /*FOOTER*/
 
     #footerpic {
-        width: 300px;
-        height: 175px;
+        width: 90%;
         margin-left: 40px;
         border: 1px solid #296cf2; 
         box-shadow: 0 0 30px #fff;     
