@@ -58,9 +58,7 @@ nav ul {
 .navigation {
     list-style: none;
     text-align: center;
-    display:flex;
-    flex-direction:column;
-}
+   }
 
 .navigation li:first-child {
     display: block;
