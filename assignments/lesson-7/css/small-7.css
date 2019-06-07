@@ -1,4 +1,11 @@
 /*HEADER*/
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 header img, .headings {
     display: inline-block;
 	vertical-align: middle;
