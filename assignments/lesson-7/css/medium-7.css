@@ -1,9 +1,7 @@
 @media only screen and (min-width: 35em) {
 
     /*GALLERY*/
-    nav {
-        font-size: 3vw;
-    }
+    
     .gallery {
         display: flex;
         align-items: center;
