@@ -1,9 +1,7 @@
 /*NAVIGATION*/
 @media only screen and (min-width: 45em) {
 
-        .navigation {
-            flex-direction: row;
-        }
+   
 
     .navigation li:first-child {
         display: none;
