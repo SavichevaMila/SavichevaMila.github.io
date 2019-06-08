@@ -177,11 +177,6 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .gallerypic figure img{
-        width: 60%
-       
-    }
-
     .gallerypic img:hover {
         box-shadow: 0 0 0 #296CF2 ;
     }
