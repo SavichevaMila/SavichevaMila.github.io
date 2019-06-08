@@ -8,20 +8,16 @@
 
 header img {
     display: block;
-    justify-content: center;
-    align-items: center;
-	margin: 25px;
+    margin: 25px;
+    width: 70px;
+    height: 80px;
 }
 .headings {
     display: block;
     margin: 25px;
     margin-left: 0px;
 }
-header img {
-    margin-right: 5px;
-    width: 70px;
-    height: 80px;
-}
+
 header {
     background: #296CF2;
     margin: 10px auto;
