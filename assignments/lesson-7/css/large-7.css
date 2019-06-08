@@ -177,7 +177,7 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .gallerypic img{
+    .gallerypic figure img{
         width:300px;
         height: 300px;
     }

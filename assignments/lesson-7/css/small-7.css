@@ -227,7 +227,7 @@ footer p {
     justify-content: center;
 }
 
-.gallerypic img {
+.gallerypic figure img {
     width: 90%;
 }
 
