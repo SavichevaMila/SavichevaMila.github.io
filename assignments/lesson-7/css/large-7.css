@@ -183,7 +183,7 @@
     }
 
     .gallerypic img:hover {
-        box-shadow: 0 0 50px #296CF2 ;
+        box-shadow: 0 0 0 #296CF2 ;
     }
 
 }
