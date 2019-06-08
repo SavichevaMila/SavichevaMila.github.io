@@ -146,14 +146,14 @@
         height: 20px;
     }
 
-      /*FOOTER*/
-
-    .map img {
+     map img {
         width: 80%;
         margin-left: 40px;
         border: 1px solid #296cf2; 
         box-shadow: 0 0 30px #fff;     
     }
+
+     /*FOOTER*/
    
     footer {
         background-color: #296cf2;
@@ -177,5 +177,11 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .gallerypic figure img {
+        width: 60%;
+    }
+
+    .gallerypic img:hover {
+        box-shadow: 0 0 50px #296cf2;
     
 }
