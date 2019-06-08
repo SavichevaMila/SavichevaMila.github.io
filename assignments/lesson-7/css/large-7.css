@@ -177,6 +177,11 @@
     .gallerypic figure {
         padding: 5px;
     }  
+
+    .gallerypic img{
+        width: 200px;
+        height: 200px;
+    }
     /* hover effect */
     .gallerypic img:hover {
         box-shadow: 5px 5px 10px #296cf2;
