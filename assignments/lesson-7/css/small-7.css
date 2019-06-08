@@ -219,18 +219,19 @@ footer p {
 
 /*GALLERY*/
 
-.galleryimg {
-    width: 90%;
-}
-
-.gallery {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.gallerypic {
     display: grid;
     grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.gallery figure:hover {
+.gallerypic img {
+    width: 100%;
+}
+
+
+.gallerypic figure:hover {
     box-shadow: 5px 5px 10px #296CF2;
 }

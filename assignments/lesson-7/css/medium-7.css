@@ -1,16 +1,13 @@
 @media (min-width: 35em) {
 
  /*GALLERY*/
-    .galleryimg {
-        width: 350px;
-        height: 350px;
-    }
+ .gallerypic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+   
 
-    .gallery {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
 }

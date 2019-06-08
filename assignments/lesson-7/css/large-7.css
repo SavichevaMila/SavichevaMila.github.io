@@ -169,11 +169,7 @@
 
     /*GALLERY*/
 
-    .galleryimg {
-        width:300px;
-        height: 300px;
-    }
-    .gallery{
+    .gallerypic {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -181,7 +177,13 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .gallery figure:hover {
-        box-shadow: 5px 5px 10px #296CF2;
+    .gallerypic img{
+        width:300px;
+        height: 300px;
     }
+
+    .gallerypic img:hover {
+        box-shadow: 5px 5px 10px #296CF2 ;
+    }
+
 }
