@@ -218,13 +218,3 @@ footer p {
 }
 
 /*GALLERY*/
-#galleryimg {
-    width: 90%;
-    display: grid;
-    grid-template-columns: 1fr; 
-   }
-
-
-.gallery figure {
-    border: 1px solid #296CF2
-}

@@ -2,11 +2,4 @@
 
     /*GALLERY*/
     
-    #galleryimg {
-        width: 350px;
-        height: 350px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-}
+  
