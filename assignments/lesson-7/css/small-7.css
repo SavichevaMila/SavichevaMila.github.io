@@ -220,7 +220,10 @@ footer p {
 /*GALLERY*/
 
 #galleryimg {
-    width: 80%;
+    width: 90%;
+}
+
+.gallery {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -228,6 +231,6 @@ footer p {
     grid-template-columns: 1fr;
 }
 
-#galleryimg figure:hover {
+.gallery figure:hover {
     box-shadow: 5px 5px 10px #296CF2;
 }
