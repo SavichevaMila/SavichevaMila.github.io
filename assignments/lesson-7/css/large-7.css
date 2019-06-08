@@ -172,7 +172,6 @@
     .gallerypic {
         display: flex;
         align-items: center;
-        justify-content: center;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -182,6 +181,6 @@
     }
 
     .gallerypic img:hover {
-        box-shadow: 0 0 50px #296cf2;
+        box-shadow: 0 0 0px #296cf2;
     
 }
