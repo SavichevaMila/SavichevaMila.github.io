@@ -200,8 +200,8 @@ p {
     border: solid 1px #296CF2;
     box-shadow: 0 0 30px #fff;
     align-items: center;
-    display: flex;
-    flex-direction: column;
+    justify-content: center;
+   
 }
 /*FOOTER*/
 
