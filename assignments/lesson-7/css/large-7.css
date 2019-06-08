@@ -169,8 +169,12 @@
     /*GALLERY*/
 
     .gallerypic {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;  
+        grid-template-columns: 2fr 2fr 2fr;
+        grid-gap: 10px;  
     }
     
     
