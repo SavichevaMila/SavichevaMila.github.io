@@ -171,15 +171,12 @@
     .gallerypic {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;  
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
     
     
     .gallerypic img{
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
     }
     /* hover effect */
     .gallerypic img:hover {
