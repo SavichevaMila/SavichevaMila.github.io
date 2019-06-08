@@ -168,9 +168,8 @@
 
     .gallerypic {
         display: flex;
-        align-items: center;
         display: grid;
-        grid-template-columns: repeat(3, 33,33%);
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .gallerypic figure img {
