@@ -218,7 +218,7 @@ footer p {
 /*GALLERY*/
 #galleryImg {
     display: flex;
-    flex-direction: column;
+    flex-direction: center;
     justify-content: center;
     display: grid;
     grid-template-columns: 1fr; 
