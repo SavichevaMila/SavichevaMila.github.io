@@ -218,9 +218,6 @@ footer p {
 /*GALLERY*/
 #galleryimg {
     width: 90%;
-    display: flex;
-    flex-direction: center;
-    justify-content: center;
     display: grid;
     grid-template-columns: 1fr; 
    }
