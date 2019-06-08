@@ -168,7 +168,10 @@
 
     /*GALLERY*/
 
-    .gallerypic {
+    #galleryImg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
