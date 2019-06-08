@@ -169,11 +169,10 @@
     /*GALLERY*/
 
     .gallery {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;  
+        text-align: center;
+        margin-left: 20px;
     }
 
     figcaption {
@@ -182,7 +181,7 @@
 
     /* hover effect */
     .gallery img:hover {
-        box-shadow: 0 0 50px #3A5672;
+        box-shadow: 5px 5px 10px gray;
     }
 
 }
