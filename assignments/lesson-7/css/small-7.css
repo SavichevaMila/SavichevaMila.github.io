@@ -8,6 +8,8 @@
 
 header img {
     display: block;
+    justify-content: center;
+    align-items: center;
 	margin: 25px;
 }
 .headings {
