@@ -176,7 +176,9 @@
     }
 
     
-      
+    .gallery figure {
+        padding: 5px;
+    }  
     /* hover effect */
     .gallery img:hover {
         box-shadow: 5px 5px 10px gray;
