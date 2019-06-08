@@ -6,11 +6,13 @@
     align-items: center;
 }
 
-header img, .headings {
+header img {
     display: block;
 	margin: 25px;
 }
 .headings {
+    display: block;
+    margin: 25px;
     margin-left: 0px;
 }
 header img {
@@ -29,6 +31,7 @@ h1 {
     font-size: 45px;
     color: #ffffff;
     margin-bottom: 0px;
+    padding-top: 10px;
 }
 
 .motto {
@@ -49,6 +52,7 @@ nav {
     font-size: 20px;
     background: #6393f2;
     max-width: 760px;
+    margin: 0 auto;
 }
 
 nav ul {
@@ -57,7 +61,8 @@ nav ul {
 .navigation {
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+    padding: 0;
+    text-align: center;
 	display: flex;
 	flex-direction: column;
 
@@ -91,6 +96,7 @@ nav ul {
 
 .active {
     background-color: #F2A057;
+    color: #ffffff;
   }
 
 h2 {
@@ -127,8 +133,6 @@ p {
     }
 
 .summary {
-    text-align: center;
-    position: absolute;
     bottom: 5px;
     left: 15px;
     background: #6393f2;
@@ -193,7 +197,7 @@ p {
 }
 
 .map img {
-    width: 60%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     border: solid 1px #296CF2;
@@ -216,7 +220,16 @@ footer p {
 /*GALLERY*/
 .gallery {
     display: grid;
-    grid-template-columns: 1fr;  
-    text-align: center;
+    grid-template-columns: 1fr; 
+    display:flex;
+    flex-direction: column;
+    justify-content:center; 
 }
 
+.gallery img {
+    width: 90%;
+}
+
+.gallery figure {
+    border: 1px solid #000000;
+}
