@@ -1,5 +1,6 @@
 /*NAVIGATION*/
  @media (min-width: 45em) {
+
     .navigation li:first-child {
          display: none;
     }
@@ -168,7 +169,7 @@
 
     /*GALLERY*/
 
-    #galleryimg {
+    .galleryimg {
         width:300px;
         height: 300px;
     }

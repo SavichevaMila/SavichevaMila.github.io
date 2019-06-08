@@ -1,6 +1,7 @@
 @media (min-width: 35em) {
+
  /*GALLERY*/
-    #galleryimg {
+    .galleryimg {
         width: 350px;
         height: 350px;
     }
