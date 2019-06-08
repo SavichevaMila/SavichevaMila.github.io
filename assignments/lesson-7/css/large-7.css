@@ -178,8 +178,8 @@
     }
 
     .gallerypic figure img{
-        width:300px;
-        height: 300px;
+        width: 60%
+       
     }
 
     .gallerypic img:hover {
