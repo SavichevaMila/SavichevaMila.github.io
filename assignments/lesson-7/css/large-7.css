@@ -168,17 +168,17 @@
 
     /*GALLERY*/
 
-    .gallery {
+    .gallerypic {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;  
         text-align: center;
     }
     
-    .gallery figure {
+    .gallerypic figure {
         padding: 5px;
     }  
     /* hover effect */
-    .gallery img:hover {
+    .gallerypic img:hover {
         box-shadow: 5px 5px 10px #296cf2;
     }
 

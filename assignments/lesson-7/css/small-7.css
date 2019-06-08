@@ -215,7 +215,7 @@ footer p {
 }
 
 /*GALLERY*/
-.gallery {
+.gallerypic {
     display: grid;
     grid-template-columns: 1fr; 
     display:flex;
@@ -223,7 +223,7 @@ footer p {
     justify-content:center; 
 }
 
-.gallery img {
+.gallerypic img {
     width: 90%;
 }
 
