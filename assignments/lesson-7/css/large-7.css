@@ -158,10 +158,10 @@
     }
 
     .gallerypic figure img {
-        width: 60%;
+        width: 80%;
     }
 
     .gallerypic img:hover {
         box-shadow: 0 0 0px #296cf2;
-    
-}
+    }
+ }
