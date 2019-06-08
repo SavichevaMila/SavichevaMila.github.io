@@ -199,6 +199,7 @@ p {
     margin-right: auto;
     border: solid 1px #296CF2;
     box-shadow: 0 0 30px #fff;
+    align-items: center;
 }
 /*FOOTER*/
 
