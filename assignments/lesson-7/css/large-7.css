@@ -171,10 +171,7 @@
     #galleryimg {
         width: 300px;
         height: 300px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        display: grid;
+       display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
     
