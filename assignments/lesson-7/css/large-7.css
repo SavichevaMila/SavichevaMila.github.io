@@ -150,19 +150,7 @@
         box-shadow: 0 0 30px #fff;     
     }
 
-        /*GALLERY*/
-
-        .gallerypic {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-        }
-    
-        
-        .gallerypic img:hover {
-            box-shadow: 0 0 20px #296cf2;
-        }
-
-     /*FOOTER*/
+    /*FOOTER*/
    
     footer {
         background-color: #296cf2;
@@ -176,5 +164,16 @@
         color: #fff;
     }
 
+    /*GALLERY*/
+
+    .gallerypic {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+    .gallerypic img:hover {
+        box-shadow: 0 0 20px #296cf2;
+    }
 
  }
