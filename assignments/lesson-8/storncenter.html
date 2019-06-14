@@ -46,12 +46,11 @@
             </ul>
         </nav>
          <main>
+           <h2>Report Storms in Your Area</h2>
            <div  id="storminfo">
-
-            <form name="storm_report" action="thankyou.html" method="get">
-                <fieldset>
-                    <legend> Report Storms in Your Area</legend>                
-                       <h3> Contact Information </h3>                      
+              <form name="storm_report" action="thankyou.html" method="get">
+                <fieldset>                                
+                       <legend> Contact Information </legend>                      
                           <div>
                             <label class="row"> Full Name:  </label>                        
                             <input name="full name" type="text" value="" placeholder="Insert your full name here" pattern="[A-Za-z\s]{1,60}" required>
@@ -70,7 +69,7 @@
                           </div>
                 </fieldset>
                 <fieldset>                       
-                        <h3> Storm Details </h3>
+                        <legend> Storm Details </legend>
                           <div>
                             <label class="row"> Storm Date: </label>
                             <input name="storm_date" type="date">                        
