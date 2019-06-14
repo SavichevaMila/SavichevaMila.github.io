@@ -246,7 +246,7 @@ form legend {
 
 form label.row  {
     display: block;
-    font-size: 10px;
+    font-size: 20px;
     margin-top: 15px;
 } 
  textarea {
