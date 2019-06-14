@@ -51,30 +51,27 @@
               <form name="storm_report" action="thankyou.html" method="get">
                 <fieldset>                                
                        <legend> Contact Information </legend>                      
-                          <div>
+                         
                             <label class="row"> Full Name:  </label>                        
                             <input name="full name" type="text" value="" placeholder="Insert your full name here" pattern="[A-Za-z\s]{1,60}" required>
-                          </div>                      
-                          <div>
+                         
                             <label class="row"> Email: </label>                          
                             <input name="email" type="email" value="" placeholder="johnny@gmail.com"  required>
-                          </div>                    
-                          <div>
+                   
                             <label class="row"> Phone Numeber: </label>                          
                             <input name="phone" type="tel" value="" placeholder="123-456-7985" pattern="[0-9-]{10,20}" required>
-                          </div>                          
-                          <div>
+                                                    
+                         
                             <label class="row"> Zip Code: </label>
                             <input name="zip_code" type="number" value="" placeholder="123456" required>
-                          </div>
+                          
                 </fieldset>
                 <fieldset>                       
                         <legend> Storm Details </legend>
-                          <div>
+                         
                             <label class="row"> Storm Date: </label>
                             <input name="storm_date" type="date">                        
-                        </div>                    
-                        <div>
+                        
                           <label class="row"> Storm Type </label> <input list="storm_types" placeholder="What kind of storm is it?">
   		                    <datalist id="storm_types">\
                             <option value="Flash Flood">
@@ -83,13 +80,11 @@
                             <option value="Thunderstorm">
                             <option value="Tornado">
   		                    </datalist> 
-                        </div>              
-                        <div>
+                        
                           <label class="row"> Storm Severity (rate between 1 and 10): </label>
                           <input id="range" type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">		                  
                           <span id="ratingvalue">5</span>                          
-                        </div>                     
-                        <div >
+                       
                           <label class="row">Storm Region: </label>
                           <select id="storm_region" name="storm_region">
                             <option value="" selected disabled>Select Region</option>
@@ -97,26 +92,24 @@
                             <option value="fishhaven">Fish Haven</option>
                             <option value="sodaspring">Soda Spring</option>
                           </select>
-                        </div>                    
+                                          
                   </fieldset>
                   <fieldset>
                           <legend> Are You in Danger? </legend>
                             Yes <input name="danger" type="radio" value="yes">
                             No <input  name="danger" type="radio" value="no">
-                            Maybe <input name="danger" type="radio" value="maybe"> 
-                        </div>                
-                        <div>
+                            Maybe <input name="danger" type="radio" value="maybe">                                       
+                        
                           <legend> Leave Additional Information: </legend>
-                          </br>
                           <textarea  name="more_info" rows="10" cols="30"> </textarea>
-                        </div>  
+                        
                   </fieldset>               
                         <div id="submit">
                            <input type="submit" name="submit" value="Submit" onclick="thankyou.html">
                         </div>
                 
             </form>    
-            </br></br></br>
+           
           </div>
         </main>
         <footer>
