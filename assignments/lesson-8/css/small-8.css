@@ -232,19 +232,16 @@ footer p {
 
 /*STORM CENTER*/
 form fieldset {
-
-    border: 1px solid #296CF2;
-    width:80%;
     background-color: #6393f2;
-    margin-left: 25px; 
-    
+    border: 1px solid #296CF2;
+    width:80%;    
+    margin-left:40px;     
 }
 
 form legend {
     color: #000000;
     font-weight: bold;
-    font-size: 20px;
-    
+    font-size: 20px;    
 }
 
 form label.row  {
