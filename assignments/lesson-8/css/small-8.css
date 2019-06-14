@@ -241,3 +241,10 @@ form fieldset {
     background-color: #6393f2;
     
 }
+
+form legend {
+    color: #000000;
+    font-weight: bold;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
