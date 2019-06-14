@@ -261,6 +261,7 @@ form label.row  {
     border-radius: 1rem;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-left: 60px;
     width: 60%;
     max-width: 20rem;
  }
