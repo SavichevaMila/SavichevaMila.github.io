@@ -49,93 +49,69 @@
 
             <form name="storm_report" action="thankyou.html" method="post">
                 <fieldset>
-                    <legend> Report Storms in Your Area</legend>
-                
-                    <h2> Contact Information </h2>
-                      
-                      <div>
-                        <label> Full Name:  </label>
-                        
-                        <input name="full name" type="text" value="" placeholder="Insert your full name here" pattern="[A-Za-z\s]{1,60}" required>
-                      </div>
-                      
-                      <div>
-                        <label> Email: </label>
-                          
-                        <input name="email" type="email" value="" placeholder="johnny@gmail.com"  required>
-                      </div>
-                    
-                      <div>
-                        <label> Phone Numeber: </label>
-                          
-                        <input name="phone" type="tel" value="" placeholder="123-456-7985" pattern="[0-9-]{10,20}" required>
-                      </div>
-                          
-                      <div>
-                        <label> Zip Code: </label>
-                        <input name="zip_code" type="number" value="" placeholder="123456" required>
-                      </div>
-                          
-                    <h2> Storm Details </h2>
-                  
-                      <div>
-                        <label> Storm Date: </label>
-                        <input name="storm_date" type="date">
-                        
-                      </div>
-                    
-                      <div>
-                        <label> Storm Type </label> <input list="storm_types" placeholder="What kind of storm is it?">
-  		                    <datalist id="storm_types">
-                                <option value="Flash Flood">
-                                <option value="Hail">
-                                <option value="Hurricane">
-                                <option value="Thunderstorm">
-                                <option value="Tornado">
+                    <legend> Report Storms in Your Area</legend>                
+                       <h2> Contact Information </h2>                      
+                          <div>
+                            <label> Full Name:  </label>                        
+                            <input name="full name" type="text" value="" placeholder="Insert your full name here" pattern="[A-Za-z\s]{1,60}" required>
+                          </div>                      
+                          <div>
+                            <label> Email: </label>                          
+                            <input name="email" type="email" value="" placeholder="johnny@gmail.com"  required>
+                          </div>                    
+                          <div>
+                            <label> Phone Numeber: </label>                          
+                            <input name="phone" type="tel" value="" placeholder="123-456-7985" pattern="[0-9-]{10,20}" required>
+                          </div>                          
+                          <div>
+                            <label> Zip Code: </label>
+                            <input name="zip_code" type="number" value="" placeholder="123456" required>
+                          </div>                          
+                        <h2> Storm Details </h2>
+                          <div>
+                            <label> Storm Date: </label>
+                            <input name="storm_date" type="date">                        
+                        </div>                    
+                        <div>
+                          <label> Storm Type </label> <input list="storm_types" placeholder="What kind of storm is it?">
+  		                    <datalist id="storm_types">\
+                            <option value="Flash Flood">
+                            <option value="Hail">
+                            <option value="Hurricane">
+                            <option value="Thunderstorm">
+                            <option value="Tornado">
   		                    </datalist> 
-                      </div>
-                    
-                    
-                      <div>
-                        <label> Storm Severity (rate between 1 and 10): </label>
-                        <input id="range" name="storm_severity" type="range" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-		                  
-                          <span id="ratingvalue">5</span>
-                          
-                      </div>
-                     
-                      <div >
-                        <label>Storm Region: </label>
-                        <select id="storm_region" name="storm_region">
+                        </div>              
+                        <div>
+                          <label> Storm Severity (rate between 1 and 10): </label>
+                          <input id="range" name="storm_severity" type="range" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">		                  
+                          <span id="ratingvalue">5</span>                          
+                        </div>                     
+                        <div >
+                          <label>Storm Region: </label>
+                          <select id="storm_region" name="storm_region">
                             <option value="" selected disabled>Select Region</option>
                             <option value="preston">Preston</option>
                             <option value="fishhaven">Fish Haven</option>
                             <option value="sodaspring">Soda Spring</option>
-                        </select>
-
-                      </div>
-                    
-                      <div id="danger">
-                        <label> Are You in Danger? </label>
-                         Yes <input class="danger" name="danger" type="radio" value="yes">
-                         No <input class="danger" name="danger" type="radio" value="no">
-                         Maybe <input class="danger" name="danger" type="radio" value="maybe"> 
-                        
-                      </div>
-                
-                      <div>
-                          <label> Leave Additional Information: </label></br>
-                        <textarea id="more-info" name="more_info" rows="10" cols="30"> </textarea>
-                        
-                      </div>
-                
-                      <div id="submit">
+                          </select>
+                        </div>                    
+                        <div id="danger">
+                          <label> Are You in Danger? </label>
+                            Yes <input class="danger" name="danger" type="radio" value="yes">
+                            No <input class="danger" name="danger" type="radio" value="no">
+                            Maybe <input class="danger" name="danger" type="radio" value="maybe"> 
+                        </div>                
+                        <div>
+                          <label> Leave Additional Information: </label>
+                          </br>
+                          <textarea id="more-info" name="more_info" rows="10" cols="30"> </textarea>
+                        </div>                
+                        <div id="submit">
                            <input type="submit" name="submit" value="Submit" onclick="thankyou.html">
-                         
-                      </div>
+                        </div>
                 </fieldset>
-            </form> 
-    
+            </form>    
             </br></br></br>
         </main>
         <footer>
