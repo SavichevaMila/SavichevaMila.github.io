@@ -235,7 +235,7 @@ form fieldset {
     background-color: #6393f2;
     border: 1px solid #296CF2;
     width:80%;    
-    margin-left:40px;     
+    margin-left:60px;     
 }
 
 form legend {
@@ -246,7 +246,21 @@ form legend {
 
 form label.row  {
     display: block;
-    font-size: 15px;
+    font-size: 10px;
     margin-top: 15px;
 } 
+ textarea {
+     width: 80%;
+     height: 100px;
+ }
 
+ #submit{
+    border: none;
+    background-color: #F26430;
+    color: #ffffff;
+    border-radius: 1rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 60%;
+    max-width: 20rem;
+ }
