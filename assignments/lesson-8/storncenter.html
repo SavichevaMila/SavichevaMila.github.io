@@ -84,7 +84,7 @@
                         </div>              
                         <div>
                           <label> Storm Severity (rate between 1 and 10): </label>
-                          <input id="range" name="storm_severity" type="range" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">		                  
+                          <input id="range" type="range" id="rate" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">		                  
                           <span id="ratingvalue">5</span>                          
                         </div>                     
                         <div >
@@ -123,6 +123,6 @@
         </footer>
         <script src="js/hamburger.js"></script> 
         <script src="js/currentdate.js"></script>
-        
+        <script src="js/rate.js"></script>
     </body>
 </html>
