@@ -244,8 +244,8 @@ form fieldset {
 form legend {
     color: #000000;
     font-weight: bold;
-    margin: 0 2rem;
-    padding: 0 .75rem;
+    font-size: 20px;
+    
 }
 
 form label.row  {
