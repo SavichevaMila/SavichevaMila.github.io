@@ -20,7 +20,7 @@ function showData(jsonObj) {
     if (towns[i].name=="Preston"||towns[i].name=="Soda Springs"||towns[i].name=="Fish Haven"){
     var myArticle = document.createElement('article');
     var myH2 = document.createElement('h2');
-    myH2.className="orange";
+    myH2.className="citytitle";
     var myH3 = document.createElement('h3');
     var myPara1 = document.createElement('p');
     var myPara2 = document.createElement('p');
@@ -34,16 +34,16 @@ function showData(jsonObj) {
     myPara2.textContent = 'Current Population: ' + towns[i].currentPopulation;
     myPara3.textContent = 'Average Rainfall:' + towns[i].averageRainfall;
     if (towns[i].name=="Preston"){
-      myImg.setAttribute('src','images/'); 
-      myImg.setAttribute('alt','View of lake and mountains');
+      myImg.setAttribute('src','images/preston.jpg'); 
+      myImg.setAttribute('alt','View on city');
     }
     else if (towns[i].name=="Soda Springs"){
-      myImg.setAttribute('src','images/soda.jpg'); 
-      myImg.setAttribute('alt','Country view of round hay bell.');
+      myImg.setAttribute('src','images/sodaspring.jpg'); 
+      myImg.setAttribute('alt','View on geiser.');
     }
     else if (towns[i].name=="Fish Haven"){
-      myImg.setAttribute('src','images/fish.jpg'); 
-      myImg.setAttribute('alt','View of mountains and a small cabin');
+      myImg.setAttribute('src','images/fishhaven.jpg'); 
+      myImg.setAttribute('alt','View on houses');
     }
 
     myArticle.appendChild(myH2);

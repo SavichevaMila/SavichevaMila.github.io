@@ -265,3 +265,21 @@ form label.row  {
     width: 60%;
     max-width: 20rem;
  }
+
+ /*HOME PAGE*/
+
+ aside article {
+    width: 100%;
+    text-align: center;
+    border: solid 1px #6393f2;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+article img {
+    width: 100%;
+}
+
+.citytitle {
+    color: #F26430;
+}
