@@ -186,5 +186,8 @@ aside article {
     display: flex;
     justify-content: space-between;
  }
-
+ 
+ .mainpic {
+     width: 80%;
+ }
 }

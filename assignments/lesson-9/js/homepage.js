@@ -26,6 +26,7 @@ function showData(jsonObj) {
     var myPara2 = document.createElement('p');
     var myPara3 = document.createElement('p');
     var myImg = document.createElement('img');
+    myImg.className="mainpic";
     
 
    myH2.textContent = towns[i].name;
