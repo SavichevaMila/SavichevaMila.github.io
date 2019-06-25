@@ -8,3 +8,18 @@
    }
 
 }
+
+/*HOME PAGE*/
+
+aside article {
+   width: 30%;
+   margin-bottom: 10px;
+   
+}
+
+aside {
+   display: flex;
+   justify-content: space-between;
+}
+
+}
