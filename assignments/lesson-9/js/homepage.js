@@ -34,7 +34,7 @@ function showData(jsonObj) {
     myPara2.textContent = 'Current Population: ' + towns[i].currentPopulation;
     myPara3.textContent = 'Average Rainfall:' + towns[i].averageRainfall;
     if (towns[i].name=="Preston"){
-      myImg.setAttribute('src','images/preston.jpg'); 
+      myImg.setAttribute('src','images/'); 
       myImg.setAttribute('alt','View of lake and mountains');
     }
     else if (towns[i].name=="Soda Springs"){
