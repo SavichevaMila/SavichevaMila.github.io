@@ -56,7 +56,7 @@
 
     /*FORECAST*/
 
-    .fivenday h3 {
+    .fivenday h2 {
         text-align: center;
     }
 
@@ -80,7 +80,6 @@
 
     .fiveday {
         display: block;
-        padding-bottom: 10px;
         text-align: center;
 
     }
