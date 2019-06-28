@@ -144,6 +144,13 @@ p {
     display: none;
 }
 
+/*EVENT*/
+
+.event {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /*ARTICLE*/
 
 .storypart {
