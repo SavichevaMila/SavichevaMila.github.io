@@ -1,5 +1,12 @@
-var t = parseFloat(document.getElementById("high").innerHTML);
-var s = parseFloat(document.getElementById("speed").innerHTML);
-var result = 35.74 + (0.6215 * t) - (35.75 * Math.pow(s,0.16)) + (0.4275 * t * Math.pow(s,0.16));
-document.getElementById('output').innerHTML="Wind Chill:"+" "+result.toFixed(1)+"&#8457";
-
+function displayWindChill(){
+    var temp = parseFloat(document.getElementById("high").innerHTML);
+    var wspeed = parseFloat(document.getElementById("speed").innerHTML);
+    var chill = windChill(temp, wspeed);
+    console.log("hello");
+    document.getElementById("windChill").innerHTML = chill.toFixed(1);
+    }
+    function windChill(high, speed) {
+        var sp = Math.pow(speed, 0.16);
+        var result = 35.74 + (0.6215 * high) - (35.75 * sp) + (0.4275 * high * sp);
+        return result;
+    }
