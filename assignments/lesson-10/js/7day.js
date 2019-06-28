@@ -24,9 +24,7 @@ forecastRequest.onload = function () {
 
     let list = forecastData.list;
     console.log("the list", list);
-    /*var dayOf = d.getDay();*/
-
-
+   
     var thead = document.querySelector('thead');
     var tbody = document.querySelector('tbody');
     var d = new Date();
