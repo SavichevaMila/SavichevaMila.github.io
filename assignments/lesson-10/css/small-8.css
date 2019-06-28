@@ -140,10 +140,14 @@ p {
 
 /*FORECAST*/
 
-.sevenday {
+.fiveday {
     display: none;
 }
 
+.event {
+    background-color: #F26430;
+    font-family: Pacifico, 'Times New Roman', Times, serif;
+}
 /*ARTICLE*/
 
 .storypart {
