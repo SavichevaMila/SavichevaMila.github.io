@@ -56,68 +56,25 @@
                  <section class="summary">
                     <h2>Weather Summary:</h2> 
                     <div class=".sum">
-                        <h3>Currently: Sunny</h3>
-                        <h3>High:<span id="temp">73</span>&#8457</h3>
+                        <h3>Current: <span id="current"></span></h3>
+                        <h3>High: <span id="high"></span> &#8457;</h3>
                         <h3 id="output"></h3> 
-                        <h3>Humidity: 79%</h3>
-                        <h3>Wind Speed: <span id="speed">15</span> mph</h3>
+                        <h3>Humidity: <span id="humidity"></span>%</h3>
+                        <h3>Wind Speed: <span id="speed"></span>mph</h3>
                     </div>
                 </section>
             </div>          
            <section class="sevenday">
                <h2>7 Day forecast</h2>
-               <table>
-                   <tbody>
-                       <tr>
-                           <th>Monday</th>
-                           <th>Tuesday</th>
-                           <th>Wednesday</th>
-                           <th>Thursday</th>
-                           <th>Friday</th>
-                           <th>Saturday</th>
-                           <th>Sunday</th>
-                       </tr>
-                       <tr>
-                           <td>
-                               <img alt="Sun graphic image" src="images/sungraphicoptimized.jpg">
-                               <br>
-                               73 &#8457;
-                               
-                           </td>
-                           <td>
-                                <img alt="Sun graphic image" src="images/sungraphicoptimized.jpg">  
-                                <br>
-                                69 &#8457;
-                            </td>
-                            <td>
-                                <img alt="Sun graphic image" src="images/sungraphicoptimized.jpg">
-                               <br>
-                               66 &#8457;
-                           </td>
-                           <td>
-                                <img alt="Sun graphic image" src="images/sungraphicoptimized.jpg">
-                                <br>
-                                68 &#8457;
-                            </td>
-                            <td>
-                                <img alt="Sun graphic image" src="images/sungraphicoptimized.jpg">
-                                <br>
-                                71 &#8457;
-                             </td>
-                             <td>
-                                <img alt="Sun graphic image" src="images/sungraphicoptimized.jpg">
-                                <br>
-                                73 &#8457;
-                            </td>
-                            <td>
-                                <img alt="Sun graphic image" src="images/sungraphicoptimized.jpg">
-                                <br>
-                                73 &#8457
-                            </td>
-                       </tr>
-                   </tbody>
-               </table>
+               <table class="fiveday">
+                <thead></thead>
+                <tbody></tbody>
+                </table>
            </section>
+           <section>
+            <h3 class="town">Town Events</h3>
+            <aside></aside>
+         </section>
            <section class="storypart">
                  <article class="story">
                     <h3>This Idaho Town - Preston</h3>
@@ -167,11 +124,15 @@
             <p>
                  &#169 2019  * Idaho Weather Check * Lyudmila Savicheva 
             </p>
+            <p>Attribution: <a href="https://openweathermap.org/city">OpenWeatherMap</a></p>
             <p id="displayDate">
             </p>
         </footer>
         <script src="js/hamburger.js"></script> 
         <script src="js/currentdate.js"></script>
         <script src="js/windchill.js"></script>
+        <script src="js/7day.js"></script>
+        <script src="js/events.js"></script>
+        <script src="js/summ.js"></script>
      </body>
 </html>
