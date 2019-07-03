@@ -144,6 +144,12 @@ p {
     display: none;
 }
 
+table th {
+    color: #ffffff;
+    background: #296CF2;
+    opacity: 0.85;
+  }
+
 table td, th {
   border: 2px solid #000;
   padding: 10px;
