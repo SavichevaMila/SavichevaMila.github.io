@@ -144,6 +144,12 @@ p {
     display: none;
 }
 
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+
 table th {
     color: #ffffff;
     background: #296CF2;
