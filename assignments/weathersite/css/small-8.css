@@ -167,8 +167,11 @@ table td img {
 /*EVENT*/
 
 .event {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    list-style-type: none;
+    line-height: 2rem;
+    text-align: left;
+    font-size: 0.8rem;
+    padding-left: 15px;
 }
 
 /*ARTICLE*/
