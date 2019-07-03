@@ -1,0 +1,10 @@
+@media (min-width: 37.5em) {
+
+ /*GALLERY*/
+ .gallerypic {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+
+}

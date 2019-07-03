@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Weather for Preston</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content=" Weathe in different parts of Preston, Idaho">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small-8.css">
+        <link rel="stylesheet" href="css/large-8.css">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <header>
+            <img alt="Images of Sun and Clouds" src="images/weatherlogooptimized.png">
+            <section class="headings">
+                <h1>Idaho Weather Check</h1>
+                <div class="motto">
+                        Be ready for any weather. 
+                </div>
+            </section>
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li>
+                    <a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a>
+                </li>
+                <li>
+                    <a  href="index.html"> Home</a>
+                </li>
+                <li>
+                    <a href="preston-10.html" > Preston</a>
+                </li>
+                <li>
+                    <a  href="sodaspring.html">Soda Spring</a>
+                </li>
+                <li>
+                    <a  href="fishhaven.html">Fish Haven</a>
+                </li>
+                <li>
+                    <a  href="stormcenter.html" class="active">Storm Center</a>
+                </li>
+                <li>
+                    <a  href="gallery-7.html">Gallery</a>
+                </li>
+            </ul>
+        </nav>
+         <main>
+           <h2>Report Storms in Your Area</h2>
+           <div  id="storminfo">
+              <form name="storm_report" action="thankyou.html" method="get">
+                <fieldset>                                
+                  <legend> Contact Information </legend>                      
+                         
+                    <label class="row"> Full Name:  </label>                        
+                    <input name="full name" type="text" value="" placeholder="Insert your full name here" pattern="[A-Za-z\s]{1,60}" required>
+                         
+                    <label class="row"> Email: </label>                          
+                    <input name="email" type="email" value="" placeholder="johnny@gmail.com"  required>
+                   
+                    <label class="row"> Phone Numeber: </label>                          
+                    <input name="phone" type="tel" value="" placeholder="123-456-7985" pattern="[0-9-]{10,20}" required>                                                    
+                         
+                    <label class="row"> Zip Code: </label>
+                    <input name="zip_code" type="number" value="" placeholder="123456" required>
+                          
+                </fieldset>
+                <fieldset>                       
+                        <legend> Storm Details </legend>
+                         
+                          <label class="row"> Storm Date: </label>
+                          <input name="storm_date" type="date">                        
+                        
+                          <label class="row"> Storm Type </label> <input list="storm_types" placeholder="What kind of storm is it?">
+  		                    <datalist id="storm_types">\
+                            <option value="Flash Flood">
+                            <option value="Hail">
+                            <option value="Hurricane">
+                            <option value="Thunderstorm">
+                            <option value="Tornado">
+  		                    </datalist> 
+                        
+                          <label class="row"> Storm Severity (rate between 1 and 10): </label>
+                          <input id="range" type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">		                  
+                          <span id="ratingvalue">5</span>                          
+                       
+                          <label class="row">Storm Region: </label>
+                          <select id="storm_region" name="storm_region">
+                            <option value="" selected disabled>Select Region</option>
+                            <option value="preston">Preston</option>
+                            <option value="fishhaven">Fish Haven</option>
+                            <option value="sodaspring">Soda Spring</option>
+                          </select>
+                                          
+                  </fieldset>
+                  <fieldset>
+                          <legend> Are You in Danger? </legend>
+                            Yes <input name="danger" type="radio" value="yes">
+                            No <input  name="danger" type="radio" value="no">
+                            Maybe <input name="danger" type="radio" value="maybe">                                       
+                        
+                          <legend> Leave Additional Information: </legend>
+                          <textarea  name="more_info" rows="10" cols="30"> </textarea>
+                        
+                  </fieldset>               
+                       
+                           <input type="submit" name="submit" value="Submit"  class="Btn">                     
+                </form>    
+           
+          </div>
+        </main>
+        <footer>
+            <p>
+                 &#169 2019  * Idaho Weather Check * Lyudmila Savicheva 
+            </p>
+            <p id="displayDate">
+            </p>
+        </footer>
+        <script src="js/hamburger.js"></script> 
+        <script src="js/currentdate.js"></script>
+        <script src="js/rate.js"></script>
+    </body>
+</html>
