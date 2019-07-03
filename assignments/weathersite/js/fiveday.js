@@ -1,80 +1,70 @@
 function myFunction(today) {
-
-    var weekday = new Array(7);
-    weekday[0] = "Sunday";
-    weekday[1] = "Monday";
-    weekday[2] = "Tuesday";
-    weekday[3] = "Wednesday";
-    weekday[4] = "Thursday";
-    weekday[5] = "Friday";
-    weekday[6] = "Saturday";
-
-    var n = weekday[today];
-    return n;
-
-}
-let forecastRequest = new XMLHttpRequest();
-let url = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=72df453963898aec74e5ae6d54739d93';
-forecastRequest.open('Get', url, true);
-forecastRequest.send();
-
-forecastRequest.onload = function () {
-    let forecastData = JSON.parse(forecastRequest.responseText);
+    var days = [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ];
+    var name = days[today];
+    return name;
+  }
+  
+  var thead = document.querySelector("thead");
+  var tbody = document.querySelector("tbody");
+  
+  let forecastRequest = new XMLHttpRequest();
+  let apiURLstring2 =
+    "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=25f95d7b36b3ee23a983accb3604e8ae";
+  forecastRequest.open("GET", apiURLstring2, true);
+  forecastRequest.send();
+  
+  forecastRequest.onload = function() {
+    var forecastData = JSON.parse(forecastRequest.responseText);
     console.log(forecastData);
-
-    let list = forecastData.list;
-    console.log("the list", list);
-   
-    var thead = document.querySelector('thead');
-    var tbody = document.querySelector('tbody');
+  
     var d = new Date();
     var today = d.getDay();
-    var myTr = document.createElement('tr');
-    var myTr2 = document.createElement('tr');
-    var myTr3 = document.createElement('tr');
-
-    for (var i = 0; i < list.length; i++) {
-        var time = list[i].dt_txt;
-        var myTh = document.createElement('th');
-        var myTd = document.createElement('td');
-        var myTd2 = document.createElement('td');
-        var myImg = document.createElement('img');
-        //console.log("time", time);
-        if (time.includes('18:00:00')) {
-            if (today == 7) {
-                today = 0;
-            }
-            var dayName = myFunction(today);
-            console.log(dayName);
-            today++;
-            console.log("hour 18");
-            console.log("temp", list[i].main.temp);
-            var temp = list[i].main.temp;
-            console.log("icon", list[i].weather[0].icon);
-
-            let iconPath = "https://openweathermap.org/img/w/" +
-                list[i].weather[0].icon + ".png";
-            console.log(iconPath);
-            myImg.setAttribute('src', iconPath);
-            myImg.setAttribute('alt', list[i].weather[0].description);
-            myTh.textContent = dayName;
-            myTd.appendChild(myImg);
-            myTd2.textContent = temp;
-
-            console.log(myTd);
-            myTr.appendChild(myTh);
-            myTr2.appendChild(myTd);
-            myTr3.appendChild(myTd2);
-
-
-
-
+  
+    var list = forecastData.list;
+    var tr1 = document.createElement("tr");
+    var tr2 = document.createElement("tr");
+    var tr3 = document.createElement("tr");
+  
+    for (i = 0; i < list.length; i++) {
+      var th = document.createElement("th");
+      var td1 = document.createElement("td");
+      var td2 = document.createElement("td");
+      var img = document.createElement("img");
+  
+      if (list[i].dt_txt.includes("18:00:00")) {
+        console.log("found it");
+  
+        if (today == 7) {
+          today = 0;
         }
-        thead.appendChild(myTr);
-        tbody.appendChild(myTr2);
-        tbody.appendChild(myTr3);
-        console.log(thead);
-        console.log(tbody);
+        var nameOfDay = myFunction(today);
+        today++;
+  
+        var temp = list[i].main.temp;
+        var icon =
+          "http://openweathermap.org/img/w/" + list[i].weather[0].icon + ".png";
+        var desc = list[i].weather[0].description;
+  
+        th.textContent = nameOfDay;
+        img.setAttribute("src", icon);
+        img.setAttribute("alt", desc);
+        td1.appendChild(img);
+        td2.textContent = temp + "\xB0F";
+  
+        tr1.appendChild(th);
+        tr2.appendChild(td1);
+        tr3.appendChild(td2);
+      }
+      thead.appendChild(tr1);
+      tbody.appendChild(tr2);
+      tbody.appendChild(tr3);
     }
-
-}
+  }
