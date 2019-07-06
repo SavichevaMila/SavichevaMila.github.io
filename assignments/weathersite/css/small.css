@@ -7,6 +7,8 @@
 }
 
 header img {
+    display: flex;
+    flex-direction: row;
     margin: 25px;
     width: 70px;
     height: 80px;
