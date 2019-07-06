@@ -16,8 +16,7 @@ function myFunction(today) {
   var tbody = document.querySelector("tbody");
   
   let forecastRequest = new XMLHttpRequest();
-  let apiURLstring2 =
-    "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=25f95d7b36b3ee23a983accb3604e8ae'https://api.openweathermap.org/data/2.5/forecast?zip=83276,us&units=imperial&APPID=72df453963898aec74e5ae6d54739d93";
+  let apiURLstring2 = 'https://api.openweathermap.org/data/2.5/forecast?zip=83276,us&units=imperial&APPID=72df453963898aec74e5ae6d54739d93';
   forecastRequest.open("GET", apiURLstring2, true);
   forecastRequest.send();
   
