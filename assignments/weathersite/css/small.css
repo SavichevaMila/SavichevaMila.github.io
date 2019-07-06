@@ -1,3 +1,4 @@
+
 /*HEADER*/
 
 .head {
@@ -7,8 +8,7 @@
 }
 
 header img {
-    display: block;
-    margin: 25px;
+     margin: 25px;
     width: 70px;
     height: 80px;
 }
@@ -22,7 +22,7 @@ header {
     background: #296CF2;
     margin: 10px auto;
     text-align: center;
-   
+    margin: 0px;
 }
 h1 {
     font-family: Pacifico, 'Times New Roman', Times, serif;
