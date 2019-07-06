@@ -145,6 +145,29 @@ p {
     display: none;
 }
 
+table {
+    width: 75%;
+    border-collapse: collapse;
+    margin: 10px auto;
+    border: 2px solid #000000;
+  }
+  
+  }
+  table th {
+    color: #e9e9e9;
+    background: #6393f2;
+    opacity: 0.85;
+    border-bottom: 2px solid #000000;
+  }
+  table td,
+  th {
+    border-left: 2px solid #000000;
+    padding: 7px 10px;
+  }
+  table tbody td img {
+    width: 60px;
+  }
+
 /*EVENT*/
 
 .event {
