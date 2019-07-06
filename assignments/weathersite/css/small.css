@@ -7,8 +7,14 @@
     align-items: center;
 }
 
-header img {
+header img,
+.headings {
     display: block;
+    margin: 10px;
+}
+
+header img {
+    margin:0;
     width: 70px;
     height: 80px;
 }
