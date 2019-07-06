@@ -149,7 +149,8 @@ p {
 
 .event {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    justify-content: center;    
     margin-top: 10px;
     margin-bottom: 10px;
 }
