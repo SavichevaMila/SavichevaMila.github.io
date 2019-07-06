@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Weather for Preston</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content=" Weathe in different parts of Preston, Idaho">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <header>
+            <img alt="Images of Sun and Clouds" src="images/weatherlogooptimized.png">
+            <section class="headings">
+                <h1>Idaho Weather Check</h1>
+                <div class="motto">
+                        Be ready for any weather. 
+                </div>
+            </section>
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li>
+                    <a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a>
+                </li>
+                <li>
+                    <a  href="index.html"> Home</a>
+                </li>
+                <li>
+                    <a href="preston.html" class="active"> Preston</a>
+                </li>
+                <li>
+                    <a  href="sodaspring.html">Soda Spring</a>
+                </li>
+                <li>
+                    <a  href="fishhaven.html">Fish Haven</a>
+                </li>
+                <li>
+                    <a  href="stormcenter.html">Storm Center</a>
+                </li>
+                <li>
+                    <a  href="gallery.html">Gallery</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+           <h2>Preston, Idaho</h2> 
+           <div class="current">
+               <picture>
+                    <source srcset="images/largehero.jpg" media="(min-width: 45em)">
+                    <img alt="Idaho nature" src="images/smallhero.jpg">
+               </picture>
+                
+                 <section class="summary">
+                    <h2>Weather Summary:</h2> 
+                    <div class=".sum">
+                        <h3>Current: <span id="current"></span></h3>
+                        <h3>High: <span id="high"></span> &#8457;</h3>
+                        <h3>Wind Chill: <span id="windChill"></span> &#8457;</h3>
+                        <h3>Humidity: <span id="humidity"></span>%</h3>
+                        <h3>Wind Speed: <span id="speed"></span>mph</h3>
+                    </div>
+                </section>
+            </div>          
+           <section class="fiveday">
+               <h2>5 Day forecast</h2>
+               <table class="fiveday">
+                <thead></thead>
+                <tbody></tbody>
+                </table>
+           </section>
+           <section>
+            <h2 class="event">Town Events</h2>
+            <aside></aside>
+         </section>
+           <section class="storypart">
+                 <article class="story">
+                    <h3>This Idaho Town - Preston</h3>
+                    <p>
+                        By Mike McKenna 
+                    </p>
+                    <p>
+                        For the most part, there’s nothing particularly special about Preston, Idaho.
+                        But the pretty and predominantly Mormon town of 5,204 found its own 15 minutes
+                        of fame thanks to a hit Hollywood movie; a fame that appears to be lingering.
+                        Even though the locals may be a bit tired of it all, being home to “Napoleon Dynamite”
+                        will long be Preston’s biggest claim to fame. 
+                    </p>
+                    <p>
+                        It’s been a decade since “Napoleon Dynamite” found surprising success at theaters nationwide.
+                        Written and directed by former Preston residents Jared Hess and his brother Jerusha, the film’s
+                        quirky humor, memorable one-liners and odd but endearing characters instantly resonated with
+                        audiences. The movie has become a cult classic. Its 10th anniversary celebration last summer
+                        received loads of press and even included the unveiling of a Napoleon Dynamite statue,
+                        wearing a “Vote for Pedro” shirt, of course, in Los Angeles. 
+                   </p>
+                   <a href="https://sunvalleymag.com/articles/this-idaho-town-preston/">Read more</a>
+               </article>
+               <figure class="prestonview">
+                    <img alt="View on Preston" src="images/prestonmapoptimized.jpg">
+                </figure>   
+           </section>
+           <section class="information">
+                <section class="contact">
+                    <h3>Idaho Weather Check</h3>                
+                    <p>30 N 1st E</p>
+                    <p>Preston, ID 83263</p>
+                    <br>
+                    <p>&#9742; 999-999-9999</p>
+                    <p>&#9993; idahoweatercheck@tws.com</p>
+                    <p><img src="images/pinterestoptimized.png" alt="Pinterest Logo">
+                        <img src="images/facebook.png" alt="Facebook Logo">
+                        <img src="images/twitteroptimized.png" alt="Twitter Logo">
+                    </p>
+               </section>
+               <figure class="map">
+               <img id="footerpic" alt="Map of Preston" src="images/mapofprestonoptimized.jpg" >
+               </figure>
+           </section>
+        </main>
+        <footer>
+            <p>
+                 &#169 2019  * Idaho Weather Check * Lyudmila Savicheva 
+            </p>
+            <p>Attribution: <a href="https://openweathermap.org/city">OpenWeatherMap</a></p>
+            <p id="displayDate">
+            </p>
+        </footer>
+        <script src="js/hamburger.js"></script> 
+        <script src="js/currentdate.js"></script>
+        <script src="js/windchill.js"></script>
+        <script src="js/fiveday.js"></script>
+        <script src="js/events.js"></script>
+        <script src="js/summ.js"></script>
+     </body>
+</html>
