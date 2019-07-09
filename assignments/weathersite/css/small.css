@@ -170,13 +170,16 @@ table {
 
 /*EVENT*/
 
-.event {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;    
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+article.townEvents {
+    width: 100%;
+  }
+  div#events ul {
+    list-style-type: none;
+    line-height: 1.5rem;
+    text-align: left;
+    font-size: 0.8rem;
+    padding-left: 20px;
+  }
 
 /*ARTICLE*/
 
