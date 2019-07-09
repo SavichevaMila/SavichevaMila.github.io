@@ -176,7 +176,7 @@ article.townEvents {
   div#events ul {
     list-style-type: none;
     line-height: 1.5rem;
-    text-align: left;
+    text-align: center;
     font-size: 0.8rem;
     padding-left: 20px;
   }
