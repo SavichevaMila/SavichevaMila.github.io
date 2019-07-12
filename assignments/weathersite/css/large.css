@@ -162,6 +162,12 @@
         color: #fff;
     }
 
+    .map{
+        width: 50%;
+        float: right;
+        position: relative;
+    }
+
     /*GALLERY*/
 
     .gallerypic {
