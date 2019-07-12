@@ -162,11 +162,17 @@
         color: #fff;
     }
 
+    iframe {
+        height: 250px;
+        width: 100%
+    }
+
     .map{
         width: 50%;
-        float: center;
+        float: right;
         position: relative;
     }
+
 
     /*GALLERY*/
 
