@@ -125,6 +125,12 @@ p {
     justify-content: center;
 }
 
+.current img {
+    margin: 10px auto;
+    border: 1px solid #296CF2;
+    width: 100%;
+   }
+
 .current h3 {
     margin: 0px;
     margin-left: 0px;
