@@ -259,6 +259,10 @@ footer p {
     color: #fff;
 }
 
+.map {
+    width: 100%;
+}
+
 /*GALLERY*/
 
 .gallerypic {
