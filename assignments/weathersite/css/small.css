@@ -120,9 +120,10 @@ p {
 /*MAIN.SUMMARY*/
 
 .current {
-    margin: 10px auto;
+    display:inline-block;
     position: relative;
     justify-content: center;
+    margin: 10px auto;
 }
 
 .current img {
