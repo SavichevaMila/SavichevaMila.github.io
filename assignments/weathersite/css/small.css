@@ -120,7 +120,6 @@ p {
 /*MAIN.SUMMARY*/
 
 .current {
-    display:inline-block;
     position: relative;
     justify-content: center;
     margin: 10px auto;
