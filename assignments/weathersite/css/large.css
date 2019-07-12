@@ -28,14 +28,7 @@
         text-align: center;
     }
 
-    .current img {
-        margin: 10px auto;
-        border: 1px solid #296cf2;
-        width: 100%;
-        height: 400px;
-    }
-
-    .current h3 {
+     .current h3 {
         margin: 0px;
         margin-left: 0px;
         font-size: 20px;
