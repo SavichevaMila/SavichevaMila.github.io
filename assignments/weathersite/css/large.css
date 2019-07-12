@@ -164,7 +164,7 @@
 
     .map{
         width: 50%;
-        float: right;
+        float: center;
         position: relative;
     }
 
