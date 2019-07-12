@@ -51,8 +51,16 @@
            <h2>Preston, Idaho</h2> 
            <div class="current">
                <picture>
-                    <source srcset="images/largehero.jpg" media="(min-width: 45em)">
-                    <img alt="Idaho nature" src="images/smallhero.jpg">
+                <img
+                src="images/largehero.jpg"
+                alt="sky landscape image"
+                sizes="100vw"
+                srcset="
+                  ./images/largehero.jpg   400w,
+                  ./images/mediumhero.jpg  800w,
+                  ./images/largehero.jpg 1200w
+                "
+              />
                </picture>
                 
                  <section class="summary">
