@@ -51,8 +51,10 @@
            <h2>Soda Spring, Idaho</h2> 
            <div class="current">
                <picture>
-                    <source srcset="images/largehero.jpg" media="(min-width: 45em)">
-                    <img alt="Idaho nature" src="images/smallhero.jpg">
+                    <source media="(max-width: 37.5em)" srcset="images/smallhero.jpg"> 
+                    <source media="(min-width: 37.5em)" srcset="images/mediumhero.jpg">
+                    <source media="(min-width: 48em)" srcset="images/largehero.jpg">
+                    <img src="images/largehero.jpg" alt="nature" style="width:auto;">
                </picture>
                 
                  <section class="summary">
