@@ -23,8 +23,8 @@ html {
     color: #ffffff;
     display: flex;
     justify-content: left;
-    align-items: center;
-    text-align: center;
+    align-items: left;
+    text-align: left;
   }
 
   header figure img {
