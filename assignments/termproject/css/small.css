@@ -1,20 +1,4 @@
-html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-  }
-  
-  * {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    user-select: none;
-  }
-  
+
   /*HEADER*/
   
   header {
@@ -38,21 +22,21 @@ html {
   }
    
   header h1 {
-    font-family: Roboto, serif ;
+    font-family: Pacifico, 'Times New Roman', Times, serif;
     margin: 0;
     font-size: 5rem;
   }
   header h2 {
-    font-family: Pacifico, 'Times New Roman', Times, serif;
+    font-family: Roboto, serif ;
     margin: 0;
     font-size: 4rem;
   }
   
   .motto {
-    font-family: Roboto, serif ;
+    font-family: Pacifico, 'Times New Roman', Times, serif;
     padding-bottom: 10px;
     color: #ffffff;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
   
   /*NAVIGATION*/
@@ -151,7 +135,7 @@ html {
     font-size: 0.9rem;
   }
   .bookinginfo img {
-    width: 100%;
+    width: 80%;
     margin: 10px auto;
     box-shadow: 0 0 5px #000;
     border-radius: 3px;
