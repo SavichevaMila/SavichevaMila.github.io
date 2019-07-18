@@ -103,7 +103,7 @@ html {
   
   nav li.active {
     background: #faefe9;
-    color: #ffffff;
+    color: #000000;
     cursor: default;
   }
 
