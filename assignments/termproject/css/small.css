@@ -30,6 +30,7 @@ html {
   header img {
     display: flex;
     flex-direction: row;
+    width: 50px;
 }
   .navigation {
     display: flex;
@@ -41,18 +42,16 @@ html {
   }
    
   header h1 {
-    font-family: ;
+    font-family: Roboto, serif ;
     margin: 0;
-    font-size: 1.6rem;
+    font-size: 55px;
   }
   header h2 {
     font-family: Pacifico, 'Times New Roman', Times, serif;
     margin: 0;
     font-size: 45px;
   }
-  header figure img {
-    width: 50px;
-  }
+  
   .wrapper {
     text-align: center;
   }
