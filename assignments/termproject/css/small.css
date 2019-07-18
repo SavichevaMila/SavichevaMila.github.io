@@ -30,7 +30,7 @@ html {
   header figure img {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 75%;
 }
     
   .headings {
@@ -40,19 +40,19 @@ html {
   header h1 {
     font-family: Roboto, serif ;
     margin: 0;
-    font-size: 2rem;
+    font-size: 5rem;
   }
   header h2 {
     font-family: Pacifico, 'Times New Roman', Times, serif;
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 4rem;
   }
   
   .motto {
     font-family: Roboto, serif ;
     padding-bottom: 10px;
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 2.5rem;
   }
   
   /*NAVIGATION*/
