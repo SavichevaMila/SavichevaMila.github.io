@@ -27,7 +27,7 @@ html {
     text-align: center;
   }
 
-  header img {
+  header figure img {
     display: flex;
     flex-direction: row;
     width: 50px;
@@ -57,7 +57,5 @@ html {
     color: #ffffff;
     font-size: 20px;
 
-  .wrapper {
-    text-align: center;
-  }
+  
   
