@@ -109,6 +109,13 @@
     display: block;
   }
 
+  .navigation li ul {
+    display: none;
+    background: #4694A6;;
+	  position: absolute;
+	  top: 100%;
+  }
+
   /*MAIN*/
   main {
     display: inline-block;
