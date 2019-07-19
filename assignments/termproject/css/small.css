@@ -138,10 +138,11 @@ html {
     display: inline-block;
     position: relative;
     justify-content: center;
+    text-align: center;
     }
 
   .current img {
-    width: 100%;
+    width: 140%;
   }
   
   .bookinginfo {
