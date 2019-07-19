@@ -119,7 +119,7 @@ html {
     list-style-type: none;
   }
   
-  .primaryNav a.nav-link:hover {
+  .primaryNav a.link:hover {
     background: #e7aa97;
     color: #000000;
   }
