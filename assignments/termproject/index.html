@@ -45,10 +45,10 @@
     </nav>
     <main>
         <div class="current">
-                <img
-                src="images/family1200.jpg" alt="Family at the temple" class="banner" sizes="100vw"
-                srcset="images/family400.jpg   400w, images/family800.jpg  800w, images/family1200.jpg 1200w"
-              />
+            <picture>
+                <source srcset="images/family1200.jpg" media="(min-width: 45em)">
+                <img src="images/family400.jpg" alt="Family in temple.">
+            </picture>
         </div>        
         <article class="bookinginfo">
                 <picture>
