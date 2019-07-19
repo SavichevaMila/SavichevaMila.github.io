@@ -28,16 +28,14 @@ html {
     align-items: center;
   }
   
-  .contentl {
-    align-self: flex-start;
-    margin: 15px;
-   }
     
   .logo img{
     display: block;
-    margin: 25px;
-    width: 50%;
-    
+    margin: 15px;
+    margin-left: 20px;
+    width: 45px;
+    height: 90px;
+
     }
      
   .headings {
