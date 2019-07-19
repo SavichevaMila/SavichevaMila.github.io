@@ -24,7 +24,6 @@ html {
 
   .head {
     display: flex;
-    justify-content: left;
     align-items: center;
   }
   
@@ -33,8 +32,8 @@ html {
     display: block;
     margin: 15px;
     margin-left: 20px;
-    width: 45px;
-    height: 90px;
+    width: 30px;
+    height: 60px;
 
     }
      
