@@ -16,8 +16,8 @@
     width: 20%;
     border-bottom: none;
     font-size: 1.2rem;
-    line-height: 50px;
     display: block;
+    color: #000000;
   }
   link {
     border: none;
@@ -25,7 +25,6 @@
   
   nav ul li.parent:hover ul.child {
     display: block;
-    background: #4f9ba9;
   }
   nav ul li.parent ul.child li {
     padding: 0;
