@@ -137,6 +137,7 @@ html {
   main {
     display: inline-block;
     position: relative;
+    justify-content: center;
     }
 
   .current img {
