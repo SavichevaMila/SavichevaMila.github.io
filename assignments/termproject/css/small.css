@@ -105,11 +105,11 @@
     cursor: default;
   }
 
-  .responsive li {
-    display: block;
+  nav ul.hide {
+    display: none;
   }
 
-  .navigation li ul {
+   .navigation li ul {
     display: none;
     background: #4694A6;;
 	  position: absolute;
