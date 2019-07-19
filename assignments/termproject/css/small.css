@@ -14,9 +14,8 @@
   .logo {
     display: flex;
     flex-direction: row;
-    width: 75%;
-    height: 75%;
-}
+    width: 65%;
+   }
     
   .headings {
     align-self: auto;
