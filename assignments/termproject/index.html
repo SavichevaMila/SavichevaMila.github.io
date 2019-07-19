@@ -7,6 +7,7 @@
     <meta name="description" content="General information about temple needs">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/large.css">
     
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -26,24 +27,31 @@
             <p id="displayDate" class="data"></p>
         </section>
     </header>
-  
-    <nav class="navigation">
-            <ul class="NAV"> 
-            <li><button onclick="toggleMenu()">&#9776; Menu</button></li>
-                   
-            <li class="active"><a href="index.html" class="link">Home</a></li>
-            <li><a href="temple.html" class="link">Temple</a></li>
-            <li><a href="reservation.html" class="link">Reservation</a>
-                <ul>
-                    <li><a href="reception.html" class="link">Reception</a></li>
-                    <li><a href="missionary.html" class="link">Full-time temple missionaries</a></li>
-                </ul>    
-            </li>
-            <li><a href="services.html" class="link">Services</a></li>
-            <li><a href="contact.html" class="link">Contact</a></li>
-        </ul>
-    </nav>
+    <header class="Nav">
+            <div>
+              <nav class="navbar">
+                <button onclick="toggleMenu()">&#9776; Menu</button>
+                <ul class="primaryNav">
+                  <li class="active">
+                    <a href="index.html" class="link">Home </a>
+                  </li>
+                  <li >
+                    <a href="temple.html" class="link">Temple</a>
+                  </li>
+                  <li><a href="reservation.html" class="link">Reservation</a>
+                        <ul>
+                            <li><a href="reception.html" class="link">Reception</a></li>
+                            <li><a href="missionary.html" class="link">Full-time temple missionaries</a></li>
+                        </ul>    
+                    </li>
+                    <li><a href="services.html" class="link">Services</a></li>
+                    <li><a href="contact.html" class="link">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+        </header>
     <div class="content">
+    <main>
         <div class="current">
             <picture>
                 <source srcset="images/family1200.jpg" media="(min-width: 45em)">
