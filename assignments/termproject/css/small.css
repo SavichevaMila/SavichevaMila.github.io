@@ -119,13 +119,7 @@ html {
     display: none;
   }
 
-   .navigation li ul {
-    display: none;
-    background: #626262;;
-	  position: absolute;
-	  top: 100%;
-  }
-
+   
   .content{
     text-align: center;
   }
