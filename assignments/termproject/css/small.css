@@ -20,12 +20,14 @@ html {
     width: 100%;
     background-color: #4694A6;
     color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: left;
-    text-align: center;
-  }
+    }
 
+  .head {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
   .contentl {
     align-self: flex-start;
     margin: 15px;
@@ -37,7 +39,7 @@ html {
     margin: 25px;
     }
      
-  header .headings {
+  .headings {
     align-self: auto;
     margin:15px;
   }
