@@ -22,7 +22,7 @@ html {
     color: #ffffff;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     text-align: center;
   }
 
@@ -37,8 +37,9 @@ html {
     margin: 25px;
     }
      
-  .headings {
+  header .headings {
     align-self: auto;
+    margin:15px;
   }
 
    
@@ -57,7 +58,7 @@ html {
 
   .data{
     color: #000;
-    font-size: 3vw;
+    font-size: 2vw;
     display: inline-block;
     text-align: left;
     position: absolute;
