@@ -263,3 +263,46 @@ html {
     line-height: 1.3em;
   }
   
+  /*CONTACT*/
+  section#contactInformation {
+    background-color: #e7aa97;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 7%;
+  }
+  #contactInformation div.contact h3 {
+    padding-bottom: 1%;
+    padding-top: 10%;
+    font-size: 1.1rem;
+  }
+  #contactInformation div.contact li {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    list-style-type: none;
+  }
+  div.map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  div.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 200px;
+    width: 300px;
+    margin-top: 5%;
+    text-align: center;
+  }
+  
+  div.mapouter {
+    position: relative;
+    height: 200px;
+    width: 300px;
+    font-size: 0.8em;
+  }
