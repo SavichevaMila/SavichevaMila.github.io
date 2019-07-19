@@ -133,12 +133,14 @@ html {
 	  top: 100%;
   }
 
+  .content{
+    text-align: center;
+  }
+
   /*MAIN*/
   main {
     display: inline-block;
     position: relative;
-    justify-content: center;
-    text-align: center;
     }
 
   .current img {
