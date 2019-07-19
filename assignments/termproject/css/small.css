@@ -24,19 +24,19 @@
   header h1 {
     font-family: Pacifico, 'Times New Roman', Times, serif;
     margin: 0;
-    font-size: 4vw;
+    font-size: 10vw;
   }
   header h2 {
     font-family: Roboto, serif ;
     margin: 0;
-    font-size: 3vw;
+    font-size: 9vw;
   }
   
   .motto {
     font-family: Pacifico, 'Times New Roman', Times, serif;
     padding-bottom: 10px;
     color: #ffffff;
-    font-size: 2vw;
+    font-size: 8vw;
   }
 
   .data{
@@ -215,15 +215,18 @@
     text-align: center;
 }
 
+.contact img {
+  width: 20px;
+  height: 20px;
+}
 
 .map {
     width: 60%;
+    box-shadow: 0 0 30px #fff;
+    align-items: center;
+    justify-content: center;
 }
 
-iframe {
-    width: 400px;
-    height: 300px;            
-}
 
 /*FOOTER*/
 footer {
