@@ -8,6 +8,10 @@ html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 
  
   /*HEADER*/
@@ -30,11 +34,10 @@ html {
   .logo img{
     display: flex;
     flex-direction: row;
-    margin: 15px;
+    margin: 25px;
     }
      
   .headings {
-    margin-left: 45px;
     align-self: auto;
   }
 
@@ -54,7 +57,7 @@ html {
 
   .data{
     color: #000;
-    size: 3vw;
+    font-size: 3vw;
     display: inline-block;
     text-align: left;
     position: absolute;
