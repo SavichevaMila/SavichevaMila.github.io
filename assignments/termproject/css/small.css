@@ -27,13 +27,10 @@ html {
     margin: 15px;
    }
     
-   figure {
-     margin: 0;
-     padding: 0;
-   }
-   .logo img{
+  .logo img{
     display: flex;
     flex-direction: row;
+    margin: 15px;
     }
      
   .headings {
