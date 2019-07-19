@@ -54,6 +54,7 @@ html {
     color: #ffffff;
     font-size: 2vw;
     line-height: 1.3;
+    text-align: center;
   }
 
   .data{
@@ -155,17 +156,110 @@ html {
   }  
  
   .content{
-    text-align: center;
+    text-align: left;
   }
 
   /*MAIN*/
+  
   main {
-    display: inline-block;
-    position: relative;
-    }
-
-  .current img {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main h1 {
+    color: #626262;
+    font-size: 1.3rem;
+    text-align: center;
   }
   
+   main img.hero {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section#intro {
+    background-color: #faefe9;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  img.hotel {
+    width: 100%;
+    margin: 0 auto;
+  }
+  section#intro h1 {
+    background-color: #e7aa97;
+    width: 100%;
+    padding: 0.5em 0;
+    font-size: 1.2rem;
+    letter-spacing: 0.1em;
+    font-family: Pacifico, 'Times New Roman', Times, serif;
+  }
+  section#intro p {
+    padding: 2% 4% 4% 4%;
+  }
+
+  section#intro  button#bookNow {
+    padding: 0.4rem;
+    background-color: #e7aa97;
+    color: #626262;
+    border: 2px solid #000000;
+    border-radius: 45px;
+    position: absolute;
+    right: 5%;
+    top: 79%;
+    box-shadow: 1px 5px 7px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.6rem;
+}
  
+  section#feature {
+    background-color: #faefe9;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+  }
+  img.feature {
+    width: 100%;
+    margin: 0 auto;
+  }
+  section#feature h1 {
+    background-color: #e7aa97;
+    width: 100%;
+    padding: 0.5em 0;
+    font-size: 1.3rem;
+    letter-spacing: 0.1em;
+    font-family: Pacifico, 'Times New Roman', Times, serif;
+  }
+  section#feature h2 {
+    font-size: 1rem;
+    margin: 0 5% 1% 5%;
+    font-family: Roboto, serif ;
+  }
+  section#feature h2#templeName {
+    text-align: center;
+    padding-top: 2%;
+  }
+  div#col {
+    margin: 4% 4% 0 5%;
+    column-count: 2;
+    column-gap: 20px;
+    
+  }
+  div#col h2 {
+    margin: 0 5% 1% 0;
+  }
+  section#feature ul li {
+    font-size: 0.8rem;
+    font-family: Roboto, serif ;
+    list-style-type: none;
+    line-height: 1.3em;
+  }
+  section#feature p {
+    padding: 1% 4% 4% 4%;
+    line-height: 1.3em;
+  }
+  
