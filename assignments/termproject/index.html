@@ -53,14 +53,18 @@
               />
         </div>        
         <article class="bookinginfo">
-            <img alt="Booking symbol on keyboard" src="images/booking.jpg">
+                <picture>
+                        <source media="(max-width: 37.5em)" srcset="images/booking.jpg"> 
+                        <source media="(min-width: 48em)" srcset="images/bookingsmall.jpg">
+                        <img src="images/booking.jpg" alt="Booking sign on keyboard" style="width:100%;">
+                 </picture>
             <h3>Do you need accomadation?</h3>
             <p>
             If you are looking for the place close to the temple and with the best price-quality ratio, chain "Temple Inn & Suits" is what you need.       
             </p>
             <p>
             We provide <a href="services.html">specialized services</a> and free menities such as breakfast, parking, WI-FI etc.
-            
+
             </p>
             <input value="Book now" type="button" onclick="location.href='reservation.html'">
         </article>
