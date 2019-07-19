@@ -1,0 +1,58 @@
+@media (min-width: 48em) {
+
+/*NAVIGATION*/
+
+.navigation button {
+    display: none;
+  }
+  .navigation {
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.6em;
+  }
+  
+  .responsive li {
+    display: flex;
+  }
+  nav ul li {
+    width: 17%;  
+    border-bottom: none;
+    font-size: 0.6em;
+    line-height: 50px;
+    display: block;
+  }
+  .link {
+    border: none;
+  }
+
+/*MAIN*/
+main {
+    max-width: 76rem;
+    margin: auto;
+  }
+  header h1 {
+    margin-top: 5px;
+  }
+  header h3 {
+    margin-top: 8px;
+  }
+  article {
+    margin-top: 3rem;
+    width: 100%;
+   }
+  
+  .bookinginfo img{
+    float: left;
+    width: 50%;
+    margin: 1% 1% 1% 2%;
+  }
+
+  .templesum img {
+    float: right;
+    width: 50%;
+    margin: 1% 1% 1% 2%;
+  }
+
+
+
+}
