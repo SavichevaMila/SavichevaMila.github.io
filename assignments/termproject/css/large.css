@@ -1,28 +1,25 @@
 @media (min-width: 48em) {
 
 /*NAVIGATION*/
+nav{
+    width: 100%;
+}
 .navbar button {
     display: none;
   }
-  .primaryNav {
+ .primaryNav {
     flex-direction: row;
-    justify-content: space-around;
   }
-  .navbar {
+ .navbar {
     font-size: 1.6em;
   }
-  nav ul.hide {
+nav ul.hide {
     display: flex;
   }
-  nav ul li {
-    width: 17%;
-  
-    border-bottom: none;
-    font-size: 0.6em;
-    line-height: 50px;
-    display: block;
-  }
-  .link {
+.link {
     border: none;
   }
+
+
+  
 }
