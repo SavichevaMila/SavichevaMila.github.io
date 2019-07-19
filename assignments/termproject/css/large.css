@@ -1,25 +1,56 @@
 @media (min-width: 48em) {
 
 /*NAVIGATION*/
-nav{
-    width: 100%;
-}
 .navbar button {
     display: none;
   }
- .primaryNav {
+  
+  .primaryNav {
     flex-direction: row;
+    justify-content: space-around;
   }
- .navbar {
-    font-size: 1.6em;
-  }
-nav ul.hide {
+  nav ul.hide {
     display: flex;
   }
-.link {
+  nav ul li {
+    width: 20%;
+    border-bottom: none;
+    font-size: 1.2rem;
+    line-height: 50px;
+    display: block;
+  }
+  link {
     border: none;
   }
-
-
+  
+  nav ul li.parent:hover ul.child {
+    display: block;
+    background: #4f9ba9;
+  }
+  nav ul li.parent ul.child li {
+    padding: 0;
+    border-bottom: 1px solid #626262;
+  }
+  nav ul li.parent ul.child li:hover {
+    background: #e7aa97;
+    color: #0f0f0f;
+    width: 100%;
+  }
+  nav ul li.parent ul.child li.active {
+    background: #faefe9;
+    color: #000000;
+    cursor: default;
+    width: 100%;
+  }
+  nav ul li.parent ul.child li a {
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .primaryNav a.link:hover {
+    background: #e7aa97;
+    color: #000000;
+    border: 1px solid #626262;
+  }
   
 }

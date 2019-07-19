@@ -66,11 +66,15 @@ html {
     right: 100px;
   } 
   /*NAVIGATION*/
+  .headerNav {
+    display: flex;
+    flex-direction: column;
+  }
   .navbar {
     margin-top: 10px;
     background-color: #4694A6;
     border-top: #e7aa97 solid 3px;
-    margin: 0;
+    margin-right: 0;
     padding: 0;
     text-align: center;
   }
@@ -79,7 +83,15 @@ html {
     display: flex;
     flex-direction: column;
   }
-  .link {
+  ul.primaryNav li {
+    display: block;
+    list-style-type: none;
+    text-transform: uppercase;
+  }
+  ul.primaryNav li a.link {
+    display: flex;
+    text-align: center;
+  
     text-decoration: none;
     color: #000000;
     display: block;
@@ -87,24 +99,27 @@ html {
     padding: 0 0.5em;
   }
   .navbar button {
-    margin: 0.2rem 2%;
     background-color: transparent;
     border: none;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: #626262;
     padding: 1% 0;
+  }
+  .navbar button:focus {
+    outline: none;
+    
   }
   nav li {
     display: block;
     line-height: 44px;
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-transform: uppercase;
     border-bottom: 1px solid #626262;
     cursor: pointer;
     list-style-type: none;
   }
   
-  .link:hover {
+  .primaryNav a.nav-link:hover {
     background: #e7aa97;
     color: #000000;
   }
@@ -114,18 +129,34 @@ html {
     color: #000000;
     cursor: default;
   }
-  
   nav ul.hide {
     display: none;
   }
-
-   .navigation li ul {
+  
+  nav ul li.parent ul.child {
     display: none;
-    background: #626262;;
-	  position: absolute;
-	  top: 100%;
   }
-
+  nav ul li.parent:hover ul.child {
+    display: block;
+    background: #4694A6;
+    width: 100%;  
+    text-align: left;
+  }
+  nav ul li.parent ul.child li {
+    padding: 0;
+    border-bottom: 1px solid #626262;
+  }
+  nav ul li.parent ul.child li:hover {
+    background: #e7aa97;
+    color: #0f0f0f;
+    width: 100%;
+  }
+  nav ul li.parent ul.child li a {
+    text-decoration: none;
+    display: block;
+  }
+  
+ 
   .content{
     text-align: center;
   }

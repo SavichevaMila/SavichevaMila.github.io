@@ -27,18 +27,23 @@
             <p id="displayDate" class="data"></p>
         </section>
     </header>
-    <header class="Nav">
+    <header class="headerNav">
             <div>
-              <nav class="navbar">
-                <button onclick="toggleMenu()">&#9776; Menu</button>
-                <ul class="primaryNav">
-                    <li class="active"><a href="index.html" class="link">Home </a></li>
-                    <li ><a href="temple.html" class="link">Temple</a></li>
-                    <li><a href="reservation.html" class="link">Reservation</a></li>
-                    <li><a href="services.html" class="link">Services</a></li>
-                    <li><a href="contact.html" class="link">Contact</a></li>
-                </ul>
-              </nav>
+                <nav class="navbar">
+                    <button onclick="toggleMenu()">☰ Menu</button>
+                    <ul id="primaryNav" class="primaryNav hide">
+                        <li class="active"><a href="index.html" class="link">Home </a></li>
+                        <li><a href="reservation.html" class="link">Reserve</a></li>
+                        <li><a href="temples.html" class="link">Temples</a></li>
+                        <li><a href="contact.html" class="link">Contact Us</a></li>
+                        <li class="parent"><a href="services.html" class="link">Services &gt;</a>
+                            <ul class="child">
+                                <li><a class="nav-link" href="missionary.html">Missionary</a></li>
+                                <li><a class="nav-link" href="reception.html">Wedding</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </header>
     <div class="content">
@@ -61,7 +66,7 @@
             We provide <a href="services.html">specialized services</a> and free menities such as breakfast, parking, WI-FI etc.
 
             </p>
-            <input value="Book now" type="button" onclick="location.href='reservation.html'">
+            <button type="button" id="bookNow" onclick="location.href='reservation.html'">Make Reservation</button>
         </article>
         
 
