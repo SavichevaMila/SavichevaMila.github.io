@@ -26,7 +26,7 @@ section#intro {
   grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
   margin-top: 3%;
 }
-div.imageContainer {
+div.booking {
   display: flex;
   justify-content: normal;
  
@@ -110,6 +110,5 @@ footer div.footerinfo p {
   font-size: 1rem;
   text-align: center;
 }
-
 
 }
