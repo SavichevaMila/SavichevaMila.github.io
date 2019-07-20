@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Home page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="General information about temple needs">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="head">
+            <figure class="logo">
+                <img src="images/templelogo.png" alt="Logo LDS temple">
+            </figure>
+            <section class="headings">
+                <h1>Temple Inn &amp; Suites</h1>
+                <div class="motto">
+                    Be closer to the temple...
+                </div>
+            </section>
+            <p id="displayDate" class="data"></p>
+        </section>
+    </header>
+    <header class="headerNav">
+        <div>
+            <nav class="navbar">
+                <button onclick="toggleMenu()">☰ Menu</button>
+                <ul id="primaryNav" class="primaryNav hide">
+                    <li class="active"><a href="index.html" class="link">Home </a></li>
+                    <li><a href="reservation.html" class="link">Reserve</a></li>
+                    <li><a href="temples.html" class="link">Temples</a></li>
+                    <li><a href="contact.html" class="link">Contact Us</a></li>
+                    <li class="parent"><a href="services.html" class="link">Services &gt;</a>
+                         <ul class="child">
+                            <li><a class="link" href="missionary.html">Missionary</a></li>
+                            <li><a class="link" href="reception.html">Wedding</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <main>
+            <img src="images/room1024.png" alt="hotel room" class="hero" sizes="100vw" srcset="./images/room320.jpeg   320w, ./images/room640.jpg   640w,./images/room1024.jpg 1024w" />
+                <section id="reservationContainer">
+                    <div class="formContainer">
+                      <div class="form">
+                        <form method="get" action="reservation-confirmation.html">
+                            <h2>Fill the form and get your room</h2>
+                            <fieldset>
+                                <legend>Contact Information</legend>
+                                    <label class="top">Full Name:*<input type="text" name="name" pattern="[a-zA-Z]{2,}\s[a-zA-Z]{2,}"required /></label>
+                                    <label class="top">Email:*<input type="email" name="email" placeholder="mail@gmail.com"required /></label>
+                                    <label class="top">Phone:*<input type="tel" name="phone" placeholder="1384424582" required /></label> 
+                                    <label class="top">State/Country:*<input type="text" name="state"  required /></label>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Reservation</legend>
+                                <label class="top">Location
+                                    <select id="region">
+                                        <option value="" disabled selected> Where to? &#9662;</option>
+                                        <option value="Brigham City Utah">Brigham City Utah</option>
+                                        <option value="Bismarck North Dakota">Bismarck North Dakota</option>
+                                        <option value="Boston Massachusetts">Boston Massachusetts</option>
+                                        <option value="Kona Hawaii">Kona Hawaii</option>
+                                        <option value="Los Angeles California">Los Angeles California</option>
+                                    </select>
+                                </label>
+                                <label class="top">Check-in Date <input type="date" name="arrive-date" /></label>
+                                <label class="top">Depart Date <input type="date" name="depart-date" /></label>
+                                <label class="top">Room Type<input list="room-type" name="room-type" />
+                                    <datalist id="room-type">
+                                        <option value="Suite"></option>
+                                        <option value="King"></option>
+                                        <option value="Queen"></option>
+                                        <option value="Double"></option>
+                                        <option value="Twin"></option>
+                                    </datalist>
+                                </label>
+                                <label class="top">Adults*<input type="number" name="adults" required /></label>
+                                <label class="top">Children*<input type="number" name="children" required /></label>
+                            </fieldset>
+                            <fieldset>
+                                <label class="comments top">Special Accomodations/Comments:<textarea id="comments" name="comments" rows="10" cols="43"></textarea></label>
+                            </fieldset>
+                            <input type="submit" value="Book My Reservation" class="submitBtn" />
+                        </form>
+                      </div>
+                    </div>
+                </section>
+        </main>
+    </div>
+    <footer>
+        <div class="footerinfo">
+            <p>&#169; Temple Inn and Suites | Lyudmila Savicheva</p>
+            <p>Attribution: <a href="https://www.stockfreeimages.com">Stock Free Images</a> and <a href="https://www.churchofjesuschrist.org/temples/list">Church Of Jesus Christ</a></p>
+        </div>
+    </footer>
+    <script src="js/hamburger.js"></script>
+    <script src="js/currentdate.js"></script>
+</body>
+</html>
