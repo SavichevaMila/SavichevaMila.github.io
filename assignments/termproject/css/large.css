@@ -120,7 +120,7 @@ footer div.attributions p {
 }
 
 /*RESERVATION*/
-.formContainer div.form form {
+.formContainer div.form form fieldset {
     display: flex;
     flex-direction: row;
 }
