@@ -334,14 +334,14 @@ html {
   }
  
   /*RESERVATION*/
-  div.formContainer {
+  div.formContainer form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
     text-align: center;
   }
-  .formContainer div.form {
+  .formContainer div.form form {
     background-color: #fff;
     padding: 5% 0;
     width: 100%;
@@ -358,7 +358,7 @@ html {
   .formContainer div.form fieldset legend {
     padding: 0 3%;
   }
-  .formContainer div.form {
+  .formContainer div.form form {
     text-align: center;
     align-self: center;
   }
