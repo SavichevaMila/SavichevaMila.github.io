@@ -57,22 +57,11 @@ main {
     margin-top: 0;
   }
     
-  .pageId {
-    margin: 20px 0;
-    text-align: left;
-    color: #eb7903;
-    font-size: 28px;
-    padding: 10px 0;
-  }
-  
+ 
   main  picture img.hero {
     width: 100%;
   }
   
-  
-  img.hotel {
-    height: 380px;
-  }
   
   img.feature {
     height: 465px;
