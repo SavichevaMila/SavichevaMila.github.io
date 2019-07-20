@@ -16,20 +16,20 @@
     width: 20%;
     border-bottom: none;
     font-size: 1.2rem;
+    line-height: 50px;
     display: block;
-    color: #000000;
   }
-  link {
+  .link {
     border: none;
   }
   
   nav ul li.parent:hover ul.child {
     display: block;
+    background: #4f9ba9;
   }
   nav ul li.parent ul.child li {
     padding: 0;
-    border-bottom: 1px solid #626262;
-  }
+    }
   nav ul li.parent ul.child li:hover {
     background: #e7aa97;
     color: #0f0f0f;
@@ -49,22 +49,31 @@
   .primaryNav a.link:hover {
     background: #e7aa97;
     color: #000000;
-    border: 1px solid #626262;
+    
   }
-
+  
   /*MAIN*/
-  main {
+main {
     margin-top: 0;
   }
-
+    
+  .pageId {
+    margin: 20px 0;
+    text-align: left;
+    color: #eb7903;
+    font-size: 28px;
+    padding: 10px 0;
+  }
+  
   main img.hero {
     width: 100%;
   }
-
+  
+  
   img.hotel {
     height: 380px;
   }
-
+  
   img.feature {
     height: 465px;
     object-fit: cover;
@@ -76,35 +85,42 @@
   section#feature p {
     line-height: 1.5rem;
   }
-  div#socialMedia {
-    margin: 2% auto;
-  }
-  section.contact div.map {
-    width: 50%;
-    float: right;
-    position: relative; 
-    margin-top: -170px;
-    margin-right: 100px;
-  }
 
-  .contactText p {
-    font-size: 1.1rem;
-  }
-  #phone {
-    padding-left: 2%;
-    width: 40%;
-  }
-  .contact {
-    display: flex;
-  }
-  
-  #socialMedia img {
-    width: 35px;
-  }
-  /*FOOTER*/
-  
-  footer div.footerinfo p {
-    font-size: 1rem;
-  }
+  div#contactInfoBox {
+  margin: 2% auto;
+}
+ div.map {
+  width: 50%;
+  float: right;
+  position: relative;
+  margin-top: -170px;
+  margin-right: 100px;
+}
+
+div.mapouter iframe {
+  height: 250px;
+  width: 100%;
+  position: relative;
+}
+.contact p {
+  font-size: 1.1rem;
+}
+#phone {
+  padding-left: 2%;
+  width: 40%;
+}
+.contact {
+  display: flex;
+}
+
+#socialMedia img {
+  width: 35px;
+}
+/*FOOTER*/
+
+footer div.attributions p {
+  font-size: 1rem;
+}
+
 
 }
