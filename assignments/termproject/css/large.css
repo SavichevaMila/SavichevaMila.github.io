@@ -64,7 +64,7 @@ main {
   
   
   img.feature {
-    height: 465px;
+    
     object-fit: cover;
   }
   div#col {
