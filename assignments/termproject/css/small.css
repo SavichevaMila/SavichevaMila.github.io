@@ -444,3 +444,16 @@ html {
   form label.top input:required:valid {
     border-left: #e7aa97 solid 6px;
   }
+
+  main div.thanks {
+    padding: 5%;
+    background-color: #faefe9;
+  }
+  div.thanks h2 {
+    font-size: 1.2rem;
+  }
+  div.thanks p {
+    margin: 20px 0 40px 0;
+    font-size: 1rem;
+    line-height: 1.5em;
+  }
