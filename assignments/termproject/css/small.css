@@ -204,7 +204,7 @@ html {
   button#bookNow {
     padding: 0.4rem;
     background-color: #4694A6;
-    color: #626262;
+    color: #000000;
     border: 2px solid #000000;
     border-radius: 45px;
     box-shadow: 1px 5px 7px rgba(0, 0, 0, 0.1);
