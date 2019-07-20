@@ -51,5 +51,60 @@
     color: #000000;
     border: 1px solid #626262;
   }
+
+  /*MAIN*/
+  main {
+    margin-top: 0;
+  }
+
+  main img.hero {
+    width: 100%;
+  }
+
+  img.hotel {
+    height: 380px;
+  }
+
+  img.feature {
+    height: 465px;
+    object-fit: cover;
+  }
+  div#col {
+    margin: 2% 4% 0 5%;
+    column-gap: 80px;
+  }
+  section#feature p {
+    line-height: 1.5rem;
+  }
+  div#socialMedia {
+    margin: 2% auto;
+  }
+  section.contact div.map {
+    width: 50%;
+    float: right;
+    position: relative; 
+    margin-top: -170px;
+    margin-right: 100px;
+  }
+
+  .contactText p {
+    font-size: 1.1rem;
+  }
+  #phone {
+    padding-left: 2%;
+    width: 40%;
+  }
+  .contact {
+    display: flex;
+  }
   
+  #socialMedia img {
+    width: 35px;
+  }
+  /*FOOTER*/
+  
+  footer div.footerinfo p {
+    font-size: 1rem;
+  }
+
 }
