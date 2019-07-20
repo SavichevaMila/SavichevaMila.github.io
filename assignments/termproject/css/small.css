@@ -332,3 +332,114 @@ html {
     color: #0f0338;
   }
  
+  /*RESERVATION*/
+  div.contactFormContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+  }
+  .contactFormContainer div.form {
+    background-color: #fff;
+    padding: 5% 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactFormContainer div.form fieldset {
+    border: none;
+    border-top: 1px solid #626262;
+    margin-top: 10%;
+  }
+  .contactFormContainer div.form fieldset legend {
+    padding: 0 3%;
+  }
+  .contactFormContainer div.form form {
+    text-align: center;
+    align-self: center;
+  }
+  
+  .contactFormContainer div.form form h2 {
+    font-size: 1em;
+    color: #000000;
+    opacity: 0.6;
+    font-family: Pacifico, 'Times New Roman', Times, serif;    
+  }
+
+  form legend {
+    text-align: left;
+    margin-left: 2%;
+  }
+  
+  form label.top,
+  form div {
+    display: block;
+    padding-top: 1rem;
+    color: #626262;
+    font-size: 0.9rem;
+    text-align: left;
+  }
+  form label.top input,
+  form label.top select {
+    -webkit-appearance: none; 
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: 0.75rem; 
+    color: #626262;
+    width: 100%;
+    max-width: 20rem; 
+    background-color: ffffff;
+  }
+  
+  form label.sbs {
+    display: block;
+    padding: 0.75rem 0; 
+    color: #626262;
+    text-align: left;
+  }
+  
+  form label.comments {
+    display: block;
+    text-align: left;
+    border-radius: 10px;
+  }
+  form textarea {
+    -webkit-appearance: none; 
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: 0.75rem; 
+    color: #626262;
+    width: 100%;
+    max-width: 20rem; 
+  }
+  
+  form input.submitBtn {
+    border: 1px solid #000000;
+    background-color: #4694A6;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: white;
+    border-radius: 5px;
+    padding: 0.75rem 1.5rem;
+    margin: 2rem 0 2rem 0;
+    width: 95%;
+    max-width: 20rem; 
+    font-size: 1.1rem;
+  }
+  form input.submitBtn:hover {
+    background-color: #e7aa97;
+    cursor: pointer;
+  }
+  form label.top input:required {
+    border-left: #4694A6 solid 6px;
+  }
+  form label.top input:required:valid {
+    border-left: #e7aa97 solid 6px;
+  }
