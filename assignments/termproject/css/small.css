@@ -207,9 +207,6 @@ html {
     color: #626262;
     border: 2px solid #000000;
     border-radius: 45px;
-    position: absolute;
-    right: 5%;
-    top: 79%;
     box-shadow: 1px 5px 7px rgba(0, 0, 0, 0.1);
     text-transform: uppercase;
     letter-spacing: 2px;
