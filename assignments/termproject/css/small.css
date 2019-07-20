@@ -358,13 +358,13 @@ html {
   .formContainer div.form fieldset legend {
     padding: 0 3%;
   }
-  .formContainer div.form form {
+  .formContainer div.form {
     text-align: center;
     align-self: center;
   }
   
   .formContainer div.form h2 {
-    font-size: 1em;
+    font-size: 2em;
     color: #000000;
     opacity: 0.6;
     font-family: Pacifico, 'Times New Roman', Times, serif;    
@@ -388,7 +388,7 @@ html {
     -webkit-appearance: none; 
     display: block;
     font-size: 1rem;
-    border: solid 1px #999;
+    border: solid 1px #000000;
     border-radius: 4px;
     padding: 0.75rem; 
     color: #626262;
@@ -413,7 +413,7 @@ html {
     -webkit-appearance: none; 
     display: block;
     font-size: 1rem;
-    border: solid 1px #999;
+    border: solid 1px #000000;
     border-radius: 4px;
     padding: 0.75rem; 
     color: #626262;
