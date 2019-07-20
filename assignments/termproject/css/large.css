@@ -89,6 +89,14 @@ main {
   div#contactInfoBox {
   margin: 2% auto;
 }
+
+#contactInformation div.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
  div.map {
   width: 50%;
   float: right;
