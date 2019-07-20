@@ -334,14 +334,14 @@ html {
   }
  
   /*RESERVATION*/
-  div.contactFormContainer {
+  div.formContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
     text-align: center;
   }
-  .contactFormContainer div.form {
+  .formContainer div.form {
     background-color: #fff;
     padding: 5% 0;
     width: 100%;
@@ -350,20 +350,20 @@ html {
     justify-content: center;
     align-items: center;
   }
-  .contactFormContainer div.form fieldset {
+  .formContainer div.form fieldset {
     border: none;
     border-top: 1px solid #626262;
     margin-top: 10%;
   }
-  .contactFormContainer div.form fieldset legend {
+  .formContainer div.form fieldset legend {
     padding: 0 3%;
   }
-  .contactFormContainer div.form form {
+  .formContainer div.form form {
     text-align: center;
     align-self: center;
   }
   
-  .contactFormContainer div.form form h2 {
+  .formContainer div.form h2 {
     font-size: 1em;
     color: #000000;
     opacity: 0.6;

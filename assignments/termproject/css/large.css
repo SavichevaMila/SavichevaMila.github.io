@@ -119,5 +119,10 @@ footer div.attributions p {
   font-size: 1rem;
 }
 
+/*RESERVATION*/
+div.formContainer {
+    display: flex;
+    flex-direction: row;
+}
 
 }
