@@ -1,25 +1,41 @@
-/*HEADER*/
+/*NAVIGATION*/
+.navbar button {
+  font-size: 1.3rem;
+}
+nav li {
+  font-size: 1.2rem;
+}
+nav {
+  margin-top: 20px;
+}
+/*MAIN*/
+main {
+  width: 100%;
+}
+main h2 {
+  margin-top: 20px;
+  font-size: 28px;
+  padding: 10px 0;
+}
 
-.logo {
-    width: 75px;
-    margin: 0 25px;
-  }
-  header h1 {
-    font-size: 2rem;
-  }
-  header h3 {
-    font-size: 1.5rem;
-    margin-top: 5px;
-  }
+section#intro {
+  display: grid;
+  height: auto;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  margin-top: 3%;
+}
+div.imageContainer {
+  display: flex;
+  justify-content: normal;
   
-  /*NAVIGATION*/
-  .navigation button {
-    font-size: 1.75rem;
-  }
-  nav {
-    margin-top: 20px;
-  }
-  /*MAIN*/
-  main {
-    width: 85%;
-  }
+}
+img.hotel {
+  
+  height: 450px;
+  align-self: flex-start;
+  object-fit: cover;
+}
+
+section#intro p {
+   padding: 2% 4% 4% 4%;
+}
