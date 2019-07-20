@@ -201,7 +201,7 @@ html {
     padding: 2% 4% 4% 4%;
   }
 
-  section#intro  button#bookNow {
+  button#bookNow {
     padding: 0.4rem;
     background-color: #4694A6;
     color: #626262;
@@ -209,8 +209,7 @@ html {
     border-radius: 45px;
     box-shadow: 1px 5px 7px rgba(0, 0, 0, 0.1);
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 0.6rem;
+       
 }
  
   section#feature {
@@ -269,6 +268,7 @@ html {
     align-items: center;
     width: 100%;
     padding-bottom: 7%;
+    text-align: center;
   }
   #contactInformation div.contact h3 {
     padding-bottom: 1%;
