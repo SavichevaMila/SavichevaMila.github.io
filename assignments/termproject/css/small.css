@@ -295,7 +295,8 @@ html {
     align-items: center;
     justify-content: center;
     max-width: 80%;
-    margin: 15px auto;
+    margin: 0 auto;
+    text-align: left;
   }
   div.gmap_canvas {
     overflow: hidden;
