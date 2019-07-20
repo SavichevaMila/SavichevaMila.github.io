@@ -203,7 +203,7 @@ html {
 
   section#intro  button#bookNow {
     padding: 0.4rem;
-    background-color: #e7aa97;
+    background-color: #4694A6;
     color: #626262;
     border: 2px solid #000000;
     border-radius: 45px;
@@ -315,7 +315,7 @@ html {
   }
 
   /*FOOTER*/
-  
+
   div.footerinfo {
     background-color: #4694A6;
     color: #ffffff;
