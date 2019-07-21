@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Services page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Information about specialized services">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="head">
+            <figure class="logo">
+                <img src="images/templelogo.png" alt="Logo LDS temple">
+            </figure>
+            <section class="headings">
+                <h1>Temple Inn &amp; Suites</h1>
+                <div class="motto">
+                    Be closer to the temple...
+                </div>
+            </section>
+            <p id="displayDate" class="data"></p>
+        </section>
+    </header>
+    <header class="headerNav">
+        <div>
+            <nav class="navbar">
+                <button onclick="toggleMenu()">☰ Menu</button>
+                <ul id="primaryNav" class="primaryNav hide">
+                    <li><a href="index.html" class="link">Home </a></li>
+                    <li><a href="temples.html" class="link">Temples</a></li>
+                    <li class="active"><a href="reservation.html" class="link">Reserve</a></li>
+                    <li><a href="contact.html" class="link">Contact Us</a></li>
+                    <li class="parent"><a href="services.html" class="link">Services &gt;</a>
+                         <ul class="child">
+                            <li><a class="link" href="missionary.html">Missionary</a></li>
+                            <li><a class="link" href="reception.html">Wedding</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <main>
+            <img src="images/room1024.png" alt="hotel room" class="hero" sizes="100vw" srcset="./images/room320.jpeg   320w, ./images/room640.jpg   640w,./images/room1024.jpg 1024w" />
+            <section id="intro">
+                    <picture>
+                        <source srcset="images/bookingsmall.jpg" media="(min-width: 1024px)">
+                        <img src="images/booking.jpg" alt="Room in hotel" class="hotel">
+                    </picture>
+                   
+                    <div class="textIntro">
+                        <h1>Services & Amenities</h1>
+                        <ul>
+                            <li>Temple history themed reception and sitting area</li>
+                            <li>Family search center with family history consultation and family ordinance card service</li>
+                            <li>Free access to changing rooms and bathroom facilities</li>
+                            <li>Playroom and low-cost, short-term babysitting services</li>
+                            <li>Breakfast</li>
+                            <li>Exercise/workout room</li>
+                            <li>Indoor Pool</li>
+                            <li>WiFi high-speed internet access</li>
+                            <li>Temple Shuttle</li>
+                      </ul>
+                </section>
+                
+                <section id="feature">
+                   <div class="templeInfo">
+                        <h1>About temple</h1>
+                        <h2 id="templeName">Brigham City Utah temple</h2>
+                        <div id="col">
+                            <h2>ADDRESS</h2>
+                            <ul>
+                                <li>250 S Main St</li>
+                                <li>Brigham City UT 84302-2560</li>
+                                <li>Telephone: 435-695-2170</li></ul><br><br>
+                           <h2>SERVICES</h2>
+                           <ul>
+                               <li>No clothing rental availiable</li>
+                               <li>No cafeteria availiable</li>
+                               <li>No patron housing availiable</li>
+                               <li>Distribution center nearby</li>
+                           </ul>
+                        </div>
+                        
+                        <h2>GROUNDBREAKING CEREMONY</h2> 
+                            <p> "I am home," said President Boyd K. Packer in his opening remarks at the Brigham City Utah Temple
+                                 groundbreaking held Saturday, July 31, 2010. President Packer, president of the Quorum of the
+                                 Twelve Apostles, and his wife Donna are natives of Brigham City. President Packer had attended
+                                 elementary school 80 years before on the very site where he stood. He continued, 
+                                 "I can see in my mind's eye a temple sitting here in about two years time.
+                                 It will be gorgeous, it will be white. You will see in the design of it reflections 
+                                  of previous temples that have been built, particularly the Salt Lake Temple. It will be
+                                  a beacon from all over the valley."</p>
+                        <h2>TEMPLE FACTS</h2>
+                        <p>The Brigham City Utah Temple will be the fourteenth temple built in Utah and the first built in Box Elder County.
+                        The Brigham City Utah Temple District covers the same region as the original Box Elder Stake.
+                        The Brigham City Utah Temple won the PCI Design Award for Best Religious Structure in 2014. PCI stands for the Precast/Prestressed Concrete Institute.</p>
+                   </div>
+                    <div class="imageContainer">
+                        <picture>
+                            <source srcset="images/brighamcitytlarge.jpg" media="(min-width: 45em)">
+                            <img src="images/brighamcityt800.jpg" alt="Brighan city temple." class="feature">
+                        </picture>
+                    </div>
+                </section>
+        
+        
+        
+        </main>
+    </div>
+    <footer>
+        <div class="footerinfo">
+            <p>&#169; Temple Inn and Suites | Lyudmila Savicheva</p>
+            <p>Attribution: <a href="https://www.stockfreeimages.com">Stock Free Images</a> and <a href="https://www.churchofjesuschrist.org/temples/list">Church Of Jesus Christ</a></p>
+        </div>
+    </footer>
+    <script src="js/hamburger.js"></script>
+    <script src="js/currentdate.js"></script>
+</body>
+</html>
