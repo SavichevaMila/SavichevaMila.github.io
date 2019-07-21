@@ -474,3 +474,22 @@ article img {
     color: #4694A6;
     font-family: Pacifico, 'Times New Roman', Times, serif; 
 }
+/*SERVICES*/
+button#serviceBtn {
+  padding: 3% 5%;
+  border: 2px solid #000000;
+  background-color: #4694A6;
+  text-align: center;
+  border-radius: 45px;
+  box-shadow: 1px 5px 7px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  margin: 2% 0 7% 30%;
+  color: #000000
+}
+button#missionaryBtn:hover {
+  background-color: #e7aa97;
+  transform: translateY(-3px);
+  border: 2px solid #c4e7dd;
+}
