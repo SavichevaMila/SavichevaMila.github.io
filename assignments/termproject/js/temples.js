@@ -1,5 +1,5 @@
    var section = document.querySelector('aside');
-    var requestURL = 'https://renaehadfield.github.io/assignments/temples.json';
+    var requestURL = 'https://savichevamila.github.io/assignments/temples.json';
     var request = new XMLHttpRequest();
 
     request.open('GET', requestURL);
@@ -17,10 +17,10 @@
 
       
       for (var i = 0; i < temples.length; i++) { 
-        if (temples[i].name=="Brigham City Utah Temple"||temples[i].name=="Logan Utah Temple"||temples[i].name=="Ogden Utah Temple"||temples[i].name=="Bountiful Utah Temple"){
+        if (temples[i].name=="Brigham City Utah Temple"||temples[i].name=="Boston Massachusetts Temple"||temples[i].name=="Kona Hawaii Temple"||temples[i].name=="Bountiful Utah Temple"){
         var myArticle = document.createElement('article');
         var myH2 = document.createElement('h2');
-        myH2.className="purple";
+        myH2.className="cards";
         var myImg = document.createElement('img');
         var myPara1 = document.createElement('p');
         var myPara2 = document.createElement('p');
@@ -36,13 +36,13 @@
         myImg.setAttribute('src','images/brigham.jpg'); 
         myImg.setAttribute('alt','A view of the Brigham City Utah temple');
       }
-      else if (temples[i].name=="Logan Utah Temple"){
-        myImg.setAttribute('src','images/logan.jpg'); 
-        myImg.setAttribute('alt','A view of the Logan Utah Temple.');
+      else if (temples[i].name=="Boston Massachusetts Temple"){
+        myImg.setAttribute('src','images/boston.jpg'); 
+        myImg.setAttribute('alt','A view of the Boston Massachusetts Temple.');
       }
-      else if (temples[i].name=="Ogden Utah Temple"){
-        myImg.setAttribute('src','images/ogden.jpg'); 
-        myImg.setAttribute('alt','View of the Ogden Utah Temple');
+      else if (temples[i].name=="Kona Hawaii Temple"){
+        myImg.setAttribute('src','images/kona.jpg'); 
+        myImg.setAttribute('alt','View of the Kona Hawaii Temple');
       }
       else if (temples[i].name=="Bountiful Utah Temple"){
           myImg.setAttribute('src','images/bountiful.jpg'); 
