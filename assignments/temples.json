@@ -1,0 +1,132 @@
+{
+    "temples": [{
+            "name": "Brigham City Utah Temple",
+            "photo": "brigham.jpg",
+            "address": ["250 S. Main St., Brigham City UT 84302"],
+            "telephone": "435-695-2170",
+            "email": "brigham@lds.org",
+            "services": [
+                "No clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ],
+            "history": [
+                "Announced: 3 October 2009",
+                "Groundbreaking: 31 July 2010",
+                "Dedicated: 23 September 2012"
+            ],
+            "session": "Walk ins and appointments available at 7:00 AM, 9:00 AM, 11:00 AM, 1:00PM, 3:00PM, 5:00 PM, and 7:00 PM",
+            "closure": [
+                "2019",
+                "Wednesday, 24 July 2019",
+                "Monday, 5 August 2019 - Monday, 19 August 2019",
+                "Friday, 6 September 2019",
+                "Saturday, 7 September 2019",
+                "Saturday, 5 October 2019",
+                "Wednesday, 27 November 2019",
+                "Thursday, 28 November 2019",
+                "Tuesday, 24 December 2019",
+                "Wednesday, 25 December 2019",
+                "Tuesday, 31 December 2019 "
+            ]
+        },
+        {
+            "name": "Boston Massachusetts Temple",
+            "photo": "boston.jpg",
+            "address": ["100 Hinckley Way", "Belmont, MA 02478"],
+            "telephone": "617-993-9993",
+            "email": "bostonmasstemple@lds.org",
+            "services": [
+                "Clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ],
+            "history": [
+                "Announced: 30 September 1995",
+                "Groundbreaking: 13 June 1997",
+                "Dedicated: 1 October 2000"
+            ],
+            "session": [
+                "Walk ins and appointments are available every hour starting at 8AM.",
+                "The last session is at 7:30PM."
+            ],
+            "closure": [
+                "2019",
+                "Monday, 8 July 2019 - Monday, 22 July 2019",
+                "Saturday, 5 October 2019",
+                "Wednesday, 27 November 2019 ",
+                "Thursday, 28 November 2019",
+                "Tuesday, 24 December 2019",
+                "Wednesday, 25 December 2019",
+                "Tuesday, 31 December 2019 "
+            ]
+        },
+         {
+            "name": "Kona Hawaii Temple",
+            "photo": "kona.jpg",
+            "address": ["75-230 Kalani St", "Kailua-Kona HI 96740-1833"],
+            "telephone": "808-331-8504",
+            "email": "konatemple@lds.org",
+            "services": [
+                "No clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "No distribution center nearby"
+            ],
+            "history": [
+                "Announced: 7 May 1998",
+                "Groundbreaking: 13 March 1999",
+                "Dedicated: 23 January 2000"
+            ],
+            "session": [
+                "Walk ins and appointments are available starting at 8AM.",
+                "The last session is at 6:30PM."
+            ],
+            "closure": [
+                "2019",
+                "Monday, 23 September 2019 - Monday, 7 October 2019",
+                "Thursday, 28 November 2019",
+                "Tuesday, 24 December 2019",
+                "Wednesday, 25 December 2019",
+                "Tuesday, 31 December 2019 "
+            ]
+        },
+
+        {
+            "name": "Bountiful Utah Temple",
+            "photo": "bountiful.jpg",
+            "address": ["640 S Bountiful Blvd", "Bountiful UT 84010-1394"],
+            "telephone": "801 - 296 - 2100",
+             "email": "bountiful@lds.org",
+            "services": [
+                "Clothing rental available",
+                "Cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ],
+            "history": [
+                "Announced: 2 February 1990",
+                "Groundbreaking: 2 May 1992",
+                "Dedicated: 8 January 1995"
+            ],
+            "session": [
+                "Walk ins and appointments are available every half hour starting at 6AM.",
+                "The last session is at 8PM."
+            ],
+            "closure": [
+                "2019",
+                "Monday, 15 July 2019 - Sunday, 21 July 2019 ",
+                "Monday, 22 July 2019 - Monday, 5 August 2019",
+                "Saturday, 5 October 2019",
+                "Thursday, 31 October 2019 ",
+                "Wednesday, 27 November 2019",
+                "Thursday, 28 November 2019",
+                "Tuesday, 24 December 2019",
+                "Wednesday, 25 December 2019",
+                "Tuesday, 31 December 2019"
+            ]
+        }
+    ]
+}
