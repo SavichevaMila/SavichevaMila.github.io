@@ -124,5 +124,19 @@ footer div.attributions p {
     display: flex;
     flex-direction: row;
 }
+/*TEMPLES*/
+
+aside article {
+    width: 30%;
+    margin-bottom: 20px; 
+    margin-left: 20px;
+    margin-right: 20px;  
+ }
+ 
+ aside {
+    display: flex;
+    justify-content: space-between;
+ }
+
 
 }
