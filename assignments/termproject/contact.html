@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Contact us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Page for contacting hotel">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="head">
+            <figure class="logo">
+                <img src="images/templelogo.png" alt="Logo LDS temple">
+            </figure>
+            <section class="headings">
+                <h1>Temple Inn &amp; Suites</h1>
+                <div class="motto">
+                    Be closer to the temple...
+                </div>
+            </section>
+            <p id="displayDate" class="data"></p>
+        </section>
+    </header>
+    <header class="headerNav">
+        <div>
+            <nav class="navbar">
+                <button onclick="toggleMenu()">☰ Menu</button>
+                <ul id="primaryNav" class="primaryNav hide">
+                    <li><a href="index.html" class="link">Home </a></li>
+                    <li><a href="temples.html" class="link">Temples</a></li>
+                    <li><a href="reservation.html" class="link">Reserve</a></li>
+                    <li class="active"><a href="contact.html" class="link">Contact Us</a></li>
+                    <li class="parent"><a href="services.html" class="link">Services &gt;</a>
+                         <ul class="child">
+                            <li><a class="link" href="missionary.html">Missionary</a></li>
+                            <li><a class="link" href="reception.html">Wedding</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <main>
+            <img src="images/room1024.png" alt="hotel room" class="hero" sizes="100vw" srcset="./images/room320.jpeg   320w, ./images/room640.jpg   640w,./images/room1024.jpg 1024w" />
+            <section id="contactContainer">
+                <div class="FormContainer">
+                    <div class="form">
+                        <form method="get" action="thanks.html">
+                            <h2>Have a question. Contact us.</h2>
+                            <label class="top">Full Name:*<input type="text" name="name" placeholder="last name & name" pattern="[a-zA-Z]{2,}\s[a-zA-Z]{2,}"required /></label>
+                            <label class="top">Email:*<input type="email" name="email" placeholder="someone@gmail.com" required /></label>
+                            <label class="top">Phone:*<input type="tel" name="phone" placeholder="1384424582" required /></label>
+                            <label class="comments top">Comments:<textarea id="comments" name="comments" rows="10" cols="43"></textarea>
+                            </label>
+                            <input type="submit" value="Send Message" class="submitBtn" />
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section id="contactInformation">
+                <div class="contact">
+                   <h3>Temple Inn & Suites Headquarters</h3>
+                        <ul>
+                            <li>4800 Montgomery Ln #300</li>
+                            <li>Bethesda, MD 20814</li>
+                            <li>Phone: 240-999-8888</li>
+                        </ul>
+                </div>
+                <div class="map">
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe width="400" height="300" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=4800%20Montgomery%20Ln%20%23300&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><a
+                            href="https://www.embedgooglemap.org">map preview google embed</a></div>
+                    </div>
+                </div>
+            </section>     
+        </main>
+    </div>
+    <footer>
+        <div class="footerinfo">
+            <p>&#169; Temple Inn and Suites | Lyudmila Savicheva</p>
+            <p>Attribution: <a href="https://www.stockfreeimages.com">Stock Free Images</a> and <a href="https://www.churchofjesuschrist.org/temples/list">Church Of Jesus Christ</a></p>
+        </div>
+    </footer>
+    <script src="js/hamburger.js"></script>
+    <script src="js/currentdate.js"></script>
+</body>
+</html>
