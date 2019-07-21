@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Home page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="General information about temple needs">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="head">
+            <figure class="logo">
+                <img src="images/templelogo.png" alt="Logo LDS temple">
+            </figure>
+            <section class="headings">
+                <h1>Temple Inn &amp; Suites</h1>
+                <div class="motto">
+                    Be closer to the temple...
+                </div>
+            </section>
+            <p id="displayDate" class="data"></p>
+        </section>
+    </header>
+    <header class="headerNav">
+        <div>
+            <nav class="navbar">
+                <button onclick="toggleMenu()">☰ Menu</button>
+                <ul id="primaryNav" class="primaryNav hide">
+                    <li><a href="index.html" class="link">Home </a></li>
+                    <li><a href="temples.html" class="link">Temples</a></li>
+                    <li class="active"><a href="reservation.html" class="link">Reserve</a></li>
+                    <li><a href="contact.html" class="link">Contact Us</a></li>
+                    <li class="parent"><a href="services.html" class="link">Services &gt;</a>
+                         <ul class="child">
+                            <li><a class="link" href="missionary.html">Missionary</a></li>
+                            <li><a class="link" href="reception.html">Wedding</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <main>
+            <div class="thanks">
+                <h2>Message successfully send</h2>
+                <p>Thank you for your question.</br></br>Check your e-mail for our respond</p>
+            </div>
+        </main>
+    </div>
+    <footer>
+            <div class="footerinfo">
+                <p>&#169; Temple Inn and Suites | Lyudmila Savicheva</p>
+                <p>Attribution: <a href="https://www.stockfreeimages.com">Stock Free Images</a> and <a href="https://www.churchofjesuschrist.org/temples/list">Church Of Jesus Christ</a></p>
+            </div>
+        </footer>
+        <script src="js/hamburger.js"></script>
+        <script src="js/currentdate.js"></script>
+    </body>
+    </html>
