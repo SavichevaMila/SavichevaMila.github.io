@@ -20,7 +20,7 @@
         if (temples[i].name=="Brigham City Utah Temple"||temples[i].name=="Boston Massachusetts Temple"||temples[i].name=="Kona Hawaii Temple"||temples[i].name=="Bountiful Utah Temple"){
         var myArticle = document.createElement('article');
         var myH2 = document.createElement('h2');
-        myH2.className="cards";
+        myH2.className="templename";
         var myImg = document.createElement('img');
         var myPara1 = document.createElement('p');
         var myPara2 = document.createElement('p');
@@ -72,3 +72,4 @@
       }
     }
   }
+  

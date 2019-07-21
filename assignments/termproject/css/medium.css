@@ -110,4 +110,17 @@ footer div.footerinfo p {
   text-align: center;
 }
 
+/*TEMPLES*/
+
+aside article {
+    width: 50%;
+    margin-bottom: 10px;    
+}
+
+aside {
+    display: flex;
+    justify-content: space-between;    
+}
+
+
 }

@@ -457,3 +457,20 @@ html {
     font-size: 1rem;
     line-height: 1.5em;
   }
+
+  /*TEMPLES*/
+  aside article {
+    width: 100%;
+    text-align: center;
+    border: solid 1px #626262;
+    padding: 10px;
+    margin-top: 10px;
+}
+article img {
+    width: 100%;
+}
+
+.templename {
+    color: #4694A6;
+    font-family: Pacifico, 'Times New Roman', Times, serif; 
+}
