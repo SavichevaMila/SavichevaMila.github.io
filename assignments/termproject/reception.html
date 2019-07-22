@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Services page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Information about specialized services">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="head">
+            <figure class="logo">
+                <img src="images/templelogo.png" alt="Logo LDS temple">
+            </figure>
+            <section class="headings">
+                <h1>Temple Inn &amp; Suites</h1>
+                <div class="motto">
+                    Be closer to the temple...
+                </div>
+            </section>
+            <p id="displayDate" class="data"></p>
+        </section>
+    </header>
+    <header class="headerNav">
+        <div>
+            <nav class="navbar">
+                <button onclick="toggleMenu()">☰ Menu</button>
+                <ul id="primaryNav" class="primaryNav hide">
+                    <li><a href="index.html" class="link">Home </a></li>
+                    <li><a href="temples.html" class="link">Temples</a></li>
+                    <li><a href="reservation.html" class="link">Reserve</a></li>
+                    <li><a href="contact.html" class="link">Contact Us</a></li>
+                    <li class="parent"><a href="services.html" class="link">Services &gt;</a>
+                         <ul class="child">
+                            <li><a class="link" href="missionary.html">Missionary</a></li>
+                            <li><a class="link" href="reception.html">Wedding Reception</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <main>
+            <img src="images/hotelservice1024.jpg" alt="hotel room" class="hero" sizes="100vw" srcset="./images/hotelservice320.jpeg   320w, ./images/hotelservice.jpg   640w,./images/hotelservice1024.jpg 1024w" />
+                <section id="intro">
+                    <picture>
+                        <source srcset="images/bookingsmall.jpg" media="(min-width: 1024px)">
+                        <img src="images/booking.jpg" alt="Room in hotel" class="hotel">
+                    </picture>
+                   
+                    <div class="textIntro">
+                        <h1>Reception Hall</h1>
+                        <p>The Temple Inn & Suites reception hall can hold up to 150 people. We can provide wedding decoration,flowers and music. Everything what you need can be discussed.
+                         If you have more questions, contact us through contact page.
+                        </p>
+                    </div>
+                </section>
+                
+                <section id="feature">
+                   <div class="templeInfo">
+                        <h1>Catering</h1>
+                        <div id="col">
+                            <h2>OPTIONS</h2>
+                            <ul>
+                                <li>Appitizers</li>
+                                <li>Desserts</li>
+                                <li>Lunch or Dinner</li>
+                            </ul>
+                            <p> Choose what you want and we will provide it from simple appitizers to a full dinner priced per plate.</p>
+                        
+                   </div>
+                    <div class="booking">
+                        <picture>
+                            <source srcset="images/brighamcitytlarge.jpg" media="(min-width: 45em)">
+                            <img src="images/brighamcityt800.jpg" alt="Brighan city temple." class="feature">
+                        </picture>
+                    </div>
+                </section>
+                <section id="contactContainer">
+                    <div class="formContainer">
+                        <div class="form">
+                            <form method="get" action="thanks.html">
+                                <h2>Make a reservation</h2>
+                                <fieldset>
+                                        <legend>Contact Information</legend>
+                                            <label class="top">Full Name:*<input type="text" name="name" placeholder="last name & name" pattern="[a-zA-Z]{2,}\s[a-zA-Z]{2,}"required /></label>
+                                            <label class="top">Email:*<input type="email" name="email" placeholder="mail@gmail.com"required /></label>
+                                            <label class="top">Phone:*<input type="tel" name="phone" placeholder="1384424582" required /></label> 
+                                            <label class="top">State/Country:*<input type="text" name="state"  required /></label>
+                                    </fieldset>
+                                    <fieldset>
+                                        <legend>Reservation</legend>
+                                        <label class="top">Location
+                                            <select id="region">
+                                                <option value="" disabled selected> Where to? &#9662;</option>
+                                                <option value="Brigham City Utah">Brigham City Utah</option>
+                                                <option value="Kona Hawaii">Kona Hawaii</option>
+                                                <option value="Boston Massachusetts">Boston Massachusetts</option>
+                                                <option value="Bountiful Utah">Bountiful Utah</option>
+                                            </select>
+                                        </label>
+                                        <label class="top">Reception Date <input type="date" name="reception-date" /></label>
+                                    </fieldset>
+                                    <fieldset>
+                                        <legend>Comments</legend>
+                                        <label class="comments top">Special Needs/Catering/Comments:<textarea id="comments" name="comments" rows="10" cols="43"></textarea></label>
+                                    </fieldset>
+                                    <input type="submit" value="Reserve" class="submitBtn" />
+                                </form>
+                              </div>
+                            </div>
+                        </section>
+                <section id="contactInformation">
+                    <div class="contact">
+                       <h3>Temple Inn & Suites Headquarters</h3>
+                            <ul>
+                                <li>4800 Montgomery Ln #300</li>
+                                <li>Bethesda, MD 20814</li>
+                                <li>Phone: 240-999-8888</li>
+                            </ul>
+                    </div>
+                    <div class="map">
+                        <div class="mapouter">
+                            <div class="gmap_canvas"><iframe width="400" height="300" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=4800%20Montgomery%20Ln%20%23300&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><a
+                                href="https://www.embedgooglemap.org">map preview google embed</a></div>
+                        </div>
+                    </div>
+                </section>     
+            </main>
+        </div>
+        <footer>
+            <div class="footerinfo">
+                <p>&#169; Temple Inn and Suites | Lyudmila Savicheva</p>
+                <p>Attribution: <a href="https://www.stockfreeimages.com">Stock Free Images</a> and <a href="https://www.churchofjesuschrist.org/temples/list">Church Of Jesus Christ</a></p>
+            </div>
+        </footer>
+        <script src="js/hamburger.js"></script>
+        <script src="js/currentdate.js"></script>
+    </body>
+    </html>
