@@ -200,17 +200,7 @@ html {
     padding: 2% 4% 4% 4%;
   }
 
-  button#bookNow {
-    padding: 0.4rem;
-    background-color: #4694A6;
-    color: #000000;
-    border: 2px solid #000000;
-    border-radius: 45px;
-    box-shadow: 1px 5px 7px rgba(0, 0, 0, 0.1);
-    text-transform: uppercase;
-       
-}
- 
+   
   section#feature {
     background-color: #faefe9;
     display: flex;
@@ -250,7 +240,7 @@ html {
   section#feature ul li {
     font-size: 0.8rem;
     font-family: Roboto, serif ;
-    list-style-type: none;
+    
     line-height: 1.3em;
   }
   section#feature p {
