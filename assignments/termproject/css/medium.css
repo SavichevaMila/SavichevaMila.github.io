@@ -24,7 +24,7 @@ section#intro {
   display: grid;
   height: auto;
   grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
-  margin-top: 3%;
+  margin-top: 1%;
 }
 div.booking {
   display: flex;
