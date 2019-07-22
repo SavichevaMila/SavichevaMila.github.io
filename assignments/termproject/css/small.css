@@ -200,6 +200,12 @@ html {
     padding: 2% 4% 4% 4%;
   }
 
+  section#intro h2 {
+    font-size: 1rem;
+    margin: 0 5% 1% 5%;
+    font-family: Roboto, serif ;
+  }
+
    
   section#feature {
     background-color: #faefe9;
