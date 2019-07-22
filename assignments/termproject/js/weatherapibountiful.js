@@ -9,10 +9,10 @@ let apiURLstring =
       console.log(weatherData);
      
   
-      document.getElementById('current4').innerHTML = weatherData.weather[0].main;
-      document.getElementById('high4').innerHTML = weatherData.main.temp_max;
-      document.getElementById('humidity4').innerHTML = weatherData.main.humidity;
-      document.getElementById('speed4').innerHTML = weatherData.wind.speed;
+      document.getElementById('current2').innerHTML = weatherData.weather[0].main;
+      document.getElementById('high2').innerHTML = weatherData.main.temp_max;
+      document.getElementById('humidity2').innerHTML = weatherData.main.humidity;
+      document.getElementById('speed2').innerHTML = weatherData.wind.speed;
       displayWindChill()
       
   }
