@@ -2,7 +2,7 @@
     "temples": [{
             "name": "Brigham City Utah Temple",
             "photo": "brigham.jpg",
-            "address": ["250 S. Main St., Brigham City UT 84302"],
+            "address": ["250 S. Main St., Brigham City UT 84302-2560"],
             "telephone": "435-695-2170",
             "email": "brigham@lds.org",
             "services": [
@@ -104,7 +104,7 @@
         {
             "name": "Boston Massachusetts Temple",
             "photo": "boston.jpg",
-            "address": ["100 Hinckley Way", "Belmont, MA 02478"],
+            "address": ["100 Hinckley Way", "Belmont, MA 02478-2135"],
             "telephone": "617-993-9993",
             "email": "bostonmasstemple@lds.org",
             "services": [
