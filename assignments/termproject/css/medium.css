@@ -45,6 +45,13 @@ section#intro h1,
 section#feature h1 {
   margin-top: 3%;
 }
+
+section#intro ul li {
+  font-size: 0.9rem;
+  font-family: Roboto, serif ;
+  line-height: 1.3em;
+}
+
 section#feature {
   display: grid;
   height: auto;
@@ -84,7 +91,6 @@ div#col h2 {
 section#feature ul li {
   font-size: 0.9rem;
   font-family: Roboto, serif ;
-  list-style-type: none;
   line-height: 1.3em;
 }
 section#feature p {
