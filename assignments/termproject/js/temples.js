@@ -17,7 +17,7 @@
 
       
       for (var i = 0; i < temples.length; i++) { 
-        if (temples[i].name=="Brigham City Utah Temple"||temples[i].name=="Boston Massachusetts Temple"||temples[i].name=="Kona Hawaii Temple"||temples[i].name=="Bountiful Utah Temple"){
+        if (temples[i].name=="Brigham City Utah Temple"||temples[i].name=="Boston Massachusetts Temple"||temples[i].name=="Boise Idaho temple"||temples[i].name=="Bountiful Utah Temple"){
         var myArticle = document.createElement('article');
         var myH2 = document.createElement('h2');
         myH2.className="templename";
@@ -40,9 +40,9 @@
         myImg.setAttribute('src','images/boston.jpg'); 
         myImg.setAttribute('alt','A view of the Boston Massachusetts Temple.');
       }
-      else if (temples[i].name=="Kona Hawaii Temple"){
-        myImg.setAttribute('src','images/kona.jpg'); 
-        myImg.setAttribute('alt','View of the Kona Hawaii Temple');
+      else if (temples[i].name=="Boise Idaho Temple"){
+        myImg.setAttribute('src','images/boise.jpg'); 
+        myImg.setAttribute('alt','View of the Boise Idaho Temple');
       }
       else if (temples[i].name=="Bountiful Utah Temple"){
           myImg.setAttribute('src','images/bountiful.jpg'); 
