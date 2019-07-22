@@ -489,7 +489,7 @@ button#serviceBtn {
   margin: 2% 0 7% 30%;
   color: #000000
 }
-button#missionaryBtn:hover {
+button#serviceBtn:hover {
   background-color: #e7aa97;
   transform: translateY(-3px);
   border: 2px solid #c4e7dd;
