@@ -99,6 +99,10 @@ section#feature p {
   line-height: 1.3em;
 
 }
+
+button#serviceBtn {
+  margin: 2% 0 7% 35%;
+}
 .contact {
   width: 100%;
   text-align: center;
