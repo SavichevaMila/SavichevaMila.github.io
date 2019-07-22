@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Services page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Information about specialized services">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="head">
+            <figure class="logo">
+                <img src="images/templelogo.png" alt="Logo LDS temple">
+            </figure>
+            <section class="headings">
+                <h1>Temple Inn &amp; Suites</h1>
+                <div class="motto">
+                    Be closer to the temple...
+                </div>
+            </section>
+            <p id="displayDate" class="data"></p>
+        </section>
+    </header>
+    <header class="headerNav">
+        <div>
+            <nav class="navbar">
+                <button onclick="toggleMenu()">☰ Menu</button>
+                <ul id="primaryNav" class="primaryNav hide">
+                    <li><a href="index.html" class="link">Home </a></li>
+                    <li><a href="temples.html" class="link">Temples</a></li>
+                    <li><a href="reservation.html" class="link">Reserve</a></li>
+                    <li><a href="contact.html" class="link">Contact Us</a></li>
+                    <li class="parent"><a href="services.html" class="link">Services &gt;</a>
+                         <ul class="child">
+                            <li class="active"><a class="link" href="missionary.html">Missionary</a></li>
+                            <li><a class="link" href="reception.html">Wedding Reception</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <div class="content">
+            <main>
+                <img src="images/header1024.jpg" alt="Bountiful Temple" class="hero" sizes="100vw" srcset="./images/header320.jpeg   320w, ./images/header640.jpg   640w,./images/header1024.jpg 1024w" />
+                <section id="intro">
+                    <picture>
+                        <source srcset="images/suits1.jpg" media="(min-width: 1024px)">
+                        <img src="images/suits1.jpg" alt="oneroomsuits" class="hotel">
+                    </picture>
+                   
+                    <div class="textIntro">
+                        <h1>One room suite</h1>
+                        <div id="col">
+                                <h2>ROOM DESCRIPTION</h2>
+                                <ul>
+                                    <li>Number of seats: 3</li>
+                                    <li>Area: 45 м²</li>
+                                    <li>Bathroom: Shower, Toilet, Private bathroom</li>
+                                    <li>Kitchen: Kitchenette, Microwave</li>
+                                </ul>
+                            </div>
+                        <p>Description: Offering free high speed WiFi, this oneroom suite has a kitchenette and a seating area. Some feature a sofa bed.
+                        </p>
+                    </div>
+                </section>
+                
+                <section id="feature">
+                   <div class="templeInfo">
+                        <h1>Two rooms suite</h1>
+                        <div id="col">
+                            <h2>ROOM DESCRIPTION</h2>
+                            <ul>
+                                <li>Number of seats: 2</li>
+                                <li>Area: 60 м²</li>
+                                <li>Bathroom: Shower, Toilet, Private bathroom</li>
+                                <li>Fruit table</li>
+                                <li>Kitchen: Kitchenette, Microwave</li>
+                            </ul>
+                        </div>
+                        <p>Description: Offering free high speed WiFi, this tworoom suite has a kitchenette and a seating area. One bedroom and one living room.Some feature a sofa bed.
+                        </p>
+                    </div>
+                    <div class="booking">
+                        <picture>
+                            <source srcset="images/suits2.jpg" media="(min-width: 45em)">
+                            <img src="images/suits2.jpg" alt="Plates on wedding table" class="feature">
+                        </picture>
+                    </div>
+                </section>
+                <section id="contactContainer">
+                    <div class="formContainer">
+                        <div class="form">
+                            <form method="get" action="answer.html">
+                                <h2>Make a reservation</h2>
+                                <fieldset>
+                                    <legend>Contact Information</legend>
+                                    <label class="top">Full Name:*<input type="text" name="name" placeholder="last name & name" pattern="[a-zA-Z]{2,}\s[a-zA-Z]{2,}"required /></label>
+                                    <label class="top">Email:*<input type="email" name="email" placeholder="mail@gmail.com"required /></label>
+                                    <label class="top">Phone:*<input type="tel" name="phone" placeholder="1384424582" required /></label> 
+                                    <label class="top">State/Country:*<input type="text" name="state"  required /></label>
+                               </fieldset>
+                                <fieldset>
+                                    <legend>Reservation</legend>
+                                    <label class="top">Location
+                                        <select id="region">
+                                            <option value="" disabled selected> Where to? &#9662;</option>
+                                            <option value="Brigham City Utah">Brigham City Utah</option>
+                                            <option value="Kona Hawaii">Kona Hawaii</option>
+                                            <option value="Boston Massachusetts">Boston Massachusetts</option>
+                                            <option value="Bountiful Utah">Bountiful Utah</option>
+                                        </select>
+                                    </label>
+                                    <label class="top">Check-in Date <input type="date" name="arrive-date" /></label>
+                                    <label class="top">Mission duration
+                                            <select id="duration">
+                                                <option value="" disabled selected> How long? &#9662;</option>
+                                                <option value="halfayear">6 month</option>
+                                                <option value="year">12 month</option>
+                                                <option value="yearandahalf">18 month</option>
+                                                <option value="twoyears">24 month</option>
+                                            </select>
+                                    <label class="top">Room Type<input list="room-type" name="room-type" />
+                                    <datalist id="room-type">
+                                        <option value="1 Room Suite"></option>
+                                        <option value="2 Rooms Suite"></option>
+                                    </datalist>
+                                </label>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Comments</legend>
+                                <label class="comments top">Special Needs/Comments:<textarea id="comments" name="comments" rows="10" cols="43"></textarea></label>
+                            </fieldset>
+                            <input type="submit" value="Book My Suite" class="submitBtn" />
+                        </form>
+                      </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <footer>
+            <div class="footerinfo">
+                <p>&#169; Temple Inn and Suites | Lyudmila Savicheva</p>
+                <p>Attribution: <a href="https://www.stockfreeimages.com">Stock Free Images</a> and <a href="https://www.churchofjesuschrist.org/temples/list">Church Of Jesus Christ</a></p>
+            </div>
+        </footer>
+        <script src="js/hamburger.js"></script>
+        <script src="js/currentdate.js"></script>
+    </body>
+    </html>
