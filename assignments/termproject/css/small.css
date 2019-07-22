@@ -201,10 +201,11 @@ html {
     line-height: 1.3em;
     font-family: Roboto, serif ;
   }
-  section#intro ul li {
-    font-size: 0.8rem;
+
+  section#intro h2 {
+    font-size: 1rem;
+    margin: 0 5% 1% 5%;
     font-family: Roboto, serif ;
-    line-height: 1.3em;
   }
 
    
