@@ -198,6 +198,8 @@ html {
   }
   section#intro p {
     padding: 2% 4% 4% 4%;
+    line-height: 1.3em;
+    font-family: Roboto, serif ;
   }
 
    
