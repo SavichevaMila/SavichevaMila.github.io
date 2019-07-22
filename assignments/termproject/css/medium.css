@@ -22,6 +22,7 @@ main h2 {
 
 section#intro {
   display: grid;
+  width: 100%;
   height: auto;
   grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
   margin-top: 1%;
@@ -47,7 +48,7 @@ section#feature h1 {
 }
 
 section#intro ul li {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-family: Roboto, serif ;
   line-height: 1.3em;
 }
@@ -89,7 +90,7 @@ div#col h2 {
   margin: 0 5% 1% 1%;
 }
 section#feature ul li {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-family: Roboto, serif ;
   line-height: 1.3em;
 }
