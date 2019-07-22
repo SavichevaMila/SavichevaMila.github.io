@@ -4,15 +4,32 @@ let apiURLstring =
   weatherRequest.open('Get', apiURLstring, true);
   weatherRequest.send();
   
-  weatherRequest.onload = function () {
-      let weatherData = JSON.parse(weatherRequest.responseText);
-      console.log(weatherData);
-     
+  weatherRequest.onload = function() {
+    var weatherData = JSON.parse(weatherRequest.responseText);
+    //   console.log(weatherData);
   
-      document.getElementById('current4').innerHTML = weatherData.weather[0].main;
-      document.getElementById('high4').innerHTML = weatherData.main.temp_max;
-      document.getElementById('humidity4').innerHTML = weatherData.main.humidity;
-      document.getElementById('speed4').innerHTML = weatherData.wind.speed;
-      displayWindChill()
-      
-  }
+    document.getElementById("currently4").innerHTML = weatherData.weather[0].main;
+    document.getElementById("temp4").innerHTML = weatherData.main.temp;
+    document.getElementById("windSpeed4").innerHTML = weatherData.wind.speed;
+  
+    var tempF = parseInt(document.getElementById("temp4").innerHTML);
+    var speed = parseInt(document.getElementById("windSpeed4").innerHTML);
+    var chill = windChill(weatherData.main.temp, weatherData.wind.speed);
+  
+    var digits = 2;
+    var multiplier = Math.pow(10, digits);
+    chill = Math.round(chill * multiplier) / multiplier;
+    document.getElementById("windchill4").innerHTML = chill;
+  
+    function windChill(tempF, speed) {
+      result =
+        35.74 +
+        0.6215 * tempF -
+        35.75 * Math.pow(speed, 0.16) +
+        0.4275 * tempF * Math.pow(speed, 0.16);
+      return result;
+    }
+    document.getElementById("windchill4").innerHTML = chill;
+    document.getElementById("humidity4").innerHTML = weatherData.main.humidity;
+  };
+  
