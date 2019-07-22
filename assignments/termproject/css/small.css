@@ -198,6 +198,7 @@ html {
   }
   section#intro p {
     padding: 2% 4% 4% 4%;
+    font-family: Roboto, serif ;
   }
 
   section#intro h2 {
