@@ -32,37 +32,40 @@
             ]
         },
         {
-            "name": "Boston Massachusetts Temple",
-            "photo": "boston.jpg",
-            "address": ["100 Hinckley Way", "Belmont, MA 02478"],
-            "telephone": "617-993-9993",
-            "email": "bostonmasstemple@lds.org",
+            "name": "Bountiful Utah Temple",
+            "photo": "bountiful.jpg",
+            "address": ["640 S Bountiful Blvd", "Bountiful UT 84010-1394"],
+            "telephone": "801 - 296 - 2100",
+             "email": "bountiful@lds.org",
             "services": [
                 "Clothing rental available",
-                "No cafeteria available",
+                "Cafeteria available",
                 "No patron housing available",
                 "Distribution center nearby"
             ],
             "history": [
-                "Announced: 30 September 1995",
-                "Groundbreaking: 13 June 1997",
-                "Dedicated: 1 October 2000"
+                "Announced: 2 February 1990",
+                "Groundbreaking: 2 May 1992",
+                "Dedicated: 8 January 1995"
             ],
             "session": [
-                "Walk ins and appointments are available every hour starting at 8AM.",
-                "The last session is at 7:30PM."
+                "Walk ins and appointments are available every half hour starting at 6AM.",
+                "The last session is at 8PM."
             ],
             "closure": [
                 "2019",
-                "Monday, 8 July 2019 - Monday, 22 July 2019",
+                "Monday, 15 July 2019 - Sunday, 21 July 2019 ",
+                "Monday, 22 July 2019 - Monday, 5 August 2019",
                 "Saturday, 5 October 2019",
-                "Wednesday, 27 November 2019 ",
+                "Thursday, 31 October 2019 ",
+                "Wednesday, 27 November 2019",
                 "Thursday, 28 November 2019",
                 "Tuesday, 24 December 2019",
                 "Wednesday, 25 December 2019",
-                "Tuesday, 31 December 2019 "
+                "Tuesday, 31 December 2019"
             ]
         },
+
          {
             "name": "Boise Idaho Temple",
             "photo": "boise.jpg",
@@ -99,37 +102,35 @@
         },
 
         {
-            "name": "Bountiful Utah Temple",
-            "photo": "bountiful.jpg",
-            "address": ["640 S Bountiful Blvd", "Bountiful UT 84010-1394"],
-            "telephone": "801 - 296 - 2100",
-             "email": "bountiful@lds.org",
+            "name": "Boston Massachusetts Temple",
+            "photo": "boston.jpg",
+            "address": ["100 Hinckley Way", "Belmont, MA 02478"],
+            "telephone": "617-993-9993",
+            "email": "bostonmasstemple@lds.org",
             "services": [
                 "Clothing rental available",
-                "Cafeteria available",
+                "No cafeteria available",
                 "No patron housing available",
                 "Distribution center nearby"
             ],
             "history": [
-                "Announced: 2 February 1990",
-                "Groundbreaking: 2 May 1992",
-                "Dedicated: 8 January 1995"
+                "Announced: 30 September 1995",
+                "Groundbreaking: 13 June 1997",
+                "Dedicated: 1 October 2000"
             ],
             "session": [
-                "Walk ins and appointments are available every half hour starting at 6AM.",
-                "The last session is at 8PM."
+                "Walk ins and appointments are available every hour starting at 8AM.",
+                "The last session is at 7:30PM."
             ],
             "closure": [
                 "2019",
-                "Monday, 15 July 2019 - Sunday, 21 July 2019 ",
-                "Monday, 22 July 2019 - Monday, 5 August 2019",
+                "Monday, 8 July 2019 - Monday, 22 July 2019",
                 "Saturday, 5 October 2019",
-                "Thursday, 31 October 2019 ",
-                "Wednesday, 27 November 2019",
+                "Wednesday, 27 November 2019 ",
                 "Thursday, 28 November 2019",
                 "Tuesday, 24 December 2019",
                 "Wednesday, 25 December 2019",
-                "Tuesday, 31 December 2019"
+                "Tuesday, 31 December 2019 "
             ]
         }
     ]
