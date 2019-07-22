@@ -17,7 +17,7 @@ function myFunction(today) {
   
   let forecastRequest = new XMLHttpRequest();
   let apiURLstring2 =
-    "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=25f95d7b36b3ee23a983accb3604e8ae";
+    "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=62e87ca2c7400a7b300db9de2e2390c9";
   forecastRequest.open("GET", apiURLstring2, true);
   forecastRequest.send();
   
