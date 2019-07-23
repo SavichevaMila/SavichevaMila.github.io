@@ -466,6 +466,11 @@ article img {
     width: 100%;
 }
 
+aside article p{
+  margin-top: 10px;
+  font-family: Roboto, serif;
+}
+
 .templename {
     color: #4694A6;
     font-family: Pacifico, 'Times New Roman', Times, serif; 
