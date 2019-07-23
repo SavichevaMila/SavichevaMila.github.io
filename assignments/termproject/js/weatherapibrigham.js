@@ -6,8 +6,7 @@ let apiURLstring =
   
   weatherRequest.onload = function() {
     var weatherData = JSON.parse(weatherRequest.responseText);
-    //   console.log(weatherData);
-  
+    
     document.getElementById("currently").innerHTML = weatherData.weather[0].main;
     document.getElementById("temp").innerHTML = weatherData.main.temp;
     document.getElementById("windSpeed").innerHTML = weatherData.wind.speed;
