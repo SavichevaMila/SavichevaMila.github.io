@@ -125,5 +125,6 @@ footer div.footerinfo p {
 
 div.weather {
   font-size: 0.9em;
+  width: 100%;
 }
 }
