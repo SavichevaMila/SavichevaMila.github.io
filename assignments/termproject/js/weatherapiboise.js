@@ -21,7 +21,7 @@ let apiURLstring3 =
     chill3 = Math.round(chill3 * multiplier3) / multiplier3;
     document.getElementById("windchill3").innerHTML = chill3;
   
-    function windChill(tempF3, speed3) {
+    function windChill3(tempF3, speed3) {
       result3 =
         35.74 +
         0.6215 * tempF3 -
