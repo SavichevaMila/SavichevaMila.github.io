@@ -14,11 +14,11 @@ let apiURLstring3 =
   
     var tempF3 = parseInt(document.getElementById("temp3").innerHTML);
     var speed3 = parseInt(document.getElementById("windSpeed3").innerHTML);
-    var chill3 = windChill(weatherData3.main.temp, weatherData3.wind.speed);
+    var chill3 = windChill3(weatherData3.main.temp, weatherData3.wind.speed);
   
     var digits3 = 2;
     var multiplier3 = Math.pow(10, digits3);
-    chill = Math.round(chill3 * multiplier3) / multiplier3;
+    chill3 = Math.round(chill3 * multiplier3) / multiplier3;
     document.getElementById("windchill3").innerHTML = chill3;
   
     function windChill(tempF3, speed3) {
