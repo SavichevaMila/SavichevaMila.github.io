@@ -12,7 +12,7 @@ let apiURLstring3 =
     document.getElementById("temp3").innerHTML = weatherData3.main.temp;
     document.getElementById("windSpeed3").innerHTML = weatherData3.wind.speed;
   
-    var chill3 = windChill3(weatherData3.main.temp, weatherData3.wind.speed);
+    var chill3 = windChill3(tempF3, speed3);
     var tempF3 = parseInt(document.getElementById("temp3").innerHTML);
     var speed3 = parseInt(document.getElementById("windSpeed3").innerHTML);
   
