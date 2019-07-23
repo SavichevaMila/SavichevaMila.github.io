@@ -12,9 +12,9 @@ let apiURLstring3 =
     document.getElementById("temp3").innerHTML = weatherData3.main.temp;
     document.getElementById("windSpeed3").innerHTML = weatherData3.wind.speed;
   
+    var chill3 = windChill3(weatherData3.main.temp, weatherData3.wind.speed);
     var tempF3 = parseInt(document.getElementById("temp3").innerHTML);
     var speed3 = parseInt(document.getElementById("windSpeed3").innerHTML);
-    var chill3 = windChill3(weatherData3.main.temp, weatherData3.wind.speed);
   
     var digits3 = 2;
     var multiplier3 = Math.pow(10, digits3);
@@ -26,7 +26,7 @@ let apiURLstring3 =
         35.74 +
         0.6215 * tempF3 -
         35.75 * Math.pow(speed3, 0.16) +
-        0.4275 * tempF * Math.pow(speed3, 0.16);
+        0.4275 * tempF3 * Math.pow(speed3, 0.16);
       return result3;
     }
     document.getElementById("windchill3").innerHTML = chill3;
