@@ -22,13 +22,13 @@ html {
     color: #ffffff;
     }
 
-  .head {
+  section.head {
     display: flex;
     align-items: center;
   }
   
     
-  .logo img{
+  section.head figure.logo img{
     margin: 15px;
     margin-left: 20px;
     width:50px;
@@ -36,7 +36,7 @@ html {
 
     }
      
-  .headings {
+  section.headings {
     align-self: auto;
     margin:15px;
   }
@@ -48,7 +48,7 @@ html {
     font-size: 4vw;
   }
   
-  .motto {
+  div.motto {
     font-family: Roboto, serif ;
     padding-bottom: 10px;
     color: #000000;
@@ -56,7 +56,7 @@ html {
     line-height: 1.3;
     }
 
-  .data{
+  section.head p.data{
     color: #ffffff;
     font-size: 2vw;
     display: inline-block;
