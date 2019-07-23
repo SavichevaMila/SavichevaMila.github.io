@@ -23,7 +23,7 @@ let apiURLstring =
         0.4275 * tempF * Math.pow(speed, 0.16);
       return result;
     }
-    document.getElementById("windchill").innerHTML = chill;
+    document.getElementById("windchill").innerHTML = chill.toFixed(1);
     document.getElementById("humidity").innerHTML = weatherData.main.humidity;
   };
   

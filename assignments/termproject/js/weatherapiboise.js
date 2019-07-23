@@ -20,7 +20,7 @@ let apiURLstring3 =
       result3 = 35.74 + 0.6215 * tempF3 - 35.75 * Math.pow(speed3, 0.16) + 0.4275 * tempF3 * Math.pow(speed3, 0.16);
       return result3;
     }
-    document.getElementById("windchill3").innerHTML = chill3;
+    document.getElementById("windchill3").innerHTML = chill3.toFixed(1);
     document.getElementById("humidity3").innerHTML = weatherData3.main.humidity;
   };
   
