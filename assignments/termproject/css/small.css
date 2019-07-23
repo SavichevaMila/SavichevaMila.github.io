@@ -473,7 +473,7 @@ article img {
 
 div.weather {
   display: block;
-  font-size: 1.1em;
+  font-size: 0.8em;
   text-align: center;
   margin-bottom: 3rem;
 }
@@ -493,6 +493,7 @@ table td,
 th {
   border: 2px solid #626262;
   padding: 10px;
+  font-family: Roboto, serif;
 }
 
 /*SERVICES*/
