@@ -16,11 +16,6 @@ let apiURLstring =
     var speed = parseInt(document.getElementById("windSpeed").innerHTML);
     var chill = windChill(tempF, speed);
   
-    var digits = 2;
-    var multiplier = Math.pow(10, digits);
-    chill = Math.round(chill * multiplier) / multiplier;
-    document.getElementById("windchill").innerHTML = chill;
-  
     function windChill(tempF, speed) {
       result =
         35.74 +
