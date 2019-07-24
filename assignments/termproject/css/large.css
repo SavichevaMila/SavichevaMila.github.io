@@ -29,9 +29,13 @@ div.motto {
     border: none;
   }
   
+  nav ul li.parent ul.child {
+  display: none;
+  position: absolute;
+  }
+  
   nav ul li.parent:hover ul.child {
-    display: none;
-    position: absolute;
+    display: block;
     background: #4f9ba9;
   }
   nav ul li.parent ul.child li {
