@@ -67,7 +67,7 @@ div#col3 {
   column-gap: 50px;
 
 }
-div#col3 h2 {
+div#col h2 {
   margin: 0 5% 1% 1%;
 }
 
@@ -148,7 +148,11 @@ section#feature2 p {
   line-height: 1.3em;
 
 }
-button.serviceBtn {
+button#serviceBtn {
+  margin: 2% 0 7% 35%;
+}
+
+button#serviceBtn2 {
   margin: 2% 0 7% 35%;
 }
 .contact {

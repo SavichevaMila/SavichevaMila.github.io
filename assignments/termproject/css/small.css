@@ -556,7 +556,7 @@ th {
 }
 
 /*SERVICES*/
-button.serviceBtn {
+button#serviceBtn {
   padding: 3% 5%;
   border: 2px solid #000000;
   background-color: #e7aa97;
@@ -569,9 +569,27 @@ button.serviceBtn {
   margin: 2% 0 7% 30%;
   color: #000000
 }
-button.serviceBtn:hover {
+button#serviceBtn:hover {
   background-color: #4694A6;
   transform: translateY(-3px);
   border: 2px solid #c4e7dd;
 }
 
+button#serviceBtn2 {
+  padding: 3% 5%;
+  border: 2px solid #000000;
+  background-color: #e7aa97;
+  text-align: center;
+  border-radius: 45px;
+  box-shadow: 1px 5px 7px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  margin: 2% 0 7% 30%;
+  color: #000000
+}
+button#serviceBtn2:hover {
+  background-color: #4694A6;
+  transform: translateY(-3px);
+  border: 2px solid #c4e7dd;
+}
