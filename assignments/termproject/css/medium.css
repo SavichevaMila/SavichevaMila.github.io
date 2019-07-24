@@ -68,6 +68,12 @@ section#feature {
   grid-template-columns: 2fr 1fr;
   width: 100%;
 }
+section#feature2 {
+  display: grid;
+  height: auto;
+  grid-template-columns: 2fr 1fr;
+  width: 100%;
+}
 img.feature {
   max-width: 100%;
   align-self: flex-start;
@@ -91,6 +97,17 @@ div#col {
   column-gap: 50px;
 
 }
+section#feature2 h2 {
+  font-size: 1rem;
+  margin: 0 5% 1% 5%;
+  font-family: Roboto, serif ;
+}
+div#col2 {
+  margin: 2% 4% 0 5%;
+  column-count: 2;
+  column-gap: 50px;
+
+}
 h2#templeName {
   text-align: center;
   width: 85%;
@@ -109,6 +126,19 @@ section#feature p {
 
 }
 
+div#col2 h2 {
+  margin: 0 5% 1% 1%;
+}
+section#feature2 ul li {
+  font-size: 1rem;
+  font-family: Roboto, serif ;
+  line-height: 1.3em;
+}
+section#feature2 p {
+  padding: 0 4% 2% 4%;
+  line-height: 1.3em;
+
+}
 button#serviceBtn {
   margin: 2% 0 7% 35%;
 }

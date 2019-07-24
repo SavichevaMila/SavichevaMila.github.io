@@ -85,6 +85,13 @@ main {
   section#feature p {
     line-height: 1.5rem;
   }
+  div#col2 {
+    margin: 2% 4% 0 5%;
+    column-gap: 80px;
+  }
+  section#feature2 p {
+    line-height: 1.5rem;
+  }
 
   div#contactInfoBox {
   margin: 2% auto;
