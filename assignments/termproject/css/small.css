@@ -256,6 +256,50 @@ html {
     font-family: Roboto, serif ;
   }
   
+  section#feature2 {
+    background-color: #faefe9;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+  }
+  
+  section#feature2 h1 {
+    background-color: #e7aa97;
+    width: 100%;
+    padding: 0.5em 0;
+    font-size: 1.3rem;
+    letter-spacing: 0.1em;
+    font-family: Pacifico, 'Times New Roman', Times, serif;
+  }
+  section#feature2 h2 {
+    font-size: 1rem;
+    margin: 0 5% 1% 5%;
+    font-family: Roboto, serif ;
+  }
+  section#feature2 h2#templeName {
+    text-align: center;
+    padding-top: 2%;
+  }
+  div#col2 {
+    margin: 4% 4% 0 5%;
+    column-count: 2;
+    column-gap: 20px;
+    
+  }
+  div#col2 h2 {
+    margin: 0 5% 1% 0;
+  }
+  section#feature2 ul li {
+    font-size: 0.8rem;
+    font-family: Roboto, serif ;
+    line-height: 1.3em;
+  }
+  section#feature2 p {
+    padding: 1% 4% 4% 4%;
+    line-height: 1.3em;
+    font-family: Roboto, serif ;
+  }
+  
   /*CONTACT*/
   section#contactInformation {
     background-color: #e7aa97;
