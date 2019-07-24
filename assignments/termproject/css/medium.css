@@ -148,7 +148,7 @@ section#feature2 p {
   line-height: 1.3em;
 
 }
-button#serviceBtn {
+button.serviceBtn {
   margin: 2% 0 7% 35%;
 }
 .contact {
