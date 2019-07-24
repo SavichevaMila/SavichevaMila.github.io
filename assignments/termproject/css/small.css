@@ -487,7 +487,6 @@ div.weather {
 }
 
 table {
-  text-align: center;
   border-collapse: collapse;
   margin: 10px auto;
 }
@@ -523,4 +522,3 @@ button#serviceBtn:hover {
   transform: translateY(-3px);
   border: 2px solid #c4e7dd;
 }
-
