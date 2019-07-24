@@ -51,7 +51,7 @@ section#intro p {
 }
 
 section#intro h1,
-section#feature h1 {
+section#feature h1,section#feature2 h1 {
   margin-top: 3%;
 }
 
