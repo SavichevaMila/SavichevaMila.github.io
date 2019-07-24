@@ -61,6 +61,15 @@ section#intro ul li {
   font-family: Roboto, serif ;
   line-height: 1.3em;
 }
+div#col3 {
+  margin: 2% 4% 0 5%;
+  column-count: 2;
+  column-gap: 50px;
+
+}
+div#col3 h2 {
+  margin: 0 5% 1% 1%;
+}
 
 section#feature {
   display: grid;

@@ -207,6 +207,15 @@ html {
     margin: 0 5% 1% 5%;
     font-family: Roboto, serif ;
   }
+  div#col3 {
+    margin: 4% 4% 0 5%;
+    column-count: 2;
+    column-gap: 20px;
+    
+  }
+  div#col3 h2 {
+    margin: 0 5% 1% 0;
+  }
 
    
   section#feature {
