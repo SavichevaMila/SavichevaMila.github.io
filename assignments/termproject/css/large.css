@@ -33,7 +33,7 @@ div.motto {
   display: none;
   position: absolute;
   }
-  
+
   nav ul li.parent:hover ul.child {
     display: block;
     background: #4f9ba9;
@@ -92,7 +92,7 @@ main {
 
 #contactInformation div.contact {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
