@@ -1,5 +1,3 @@
-@media (max-width:640px) {
-
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -526,4 +524,3 @@ button#serviceBtn:hover {
   border: 2px solid #c4e7dd;
 }
 
-}
