@@ -1,5 +1,8 @@
 @media (min-width:1024px) {
-
+/*HEADER*/
+header h1 {
+font-size:2.5rem;
+} 
 /*NAVIGATION*/
 .navbar button {
     display: none;
@@ -24,17 +27,18 @@
   }
   
   nav ul li.parent:hover ul.child {
-    display: block;
+    display: none;
+    position: absolute;
     background: #4f9ba9;
   }
   nav ul li.parent ul.child li {
     padding: 0;
+    width: 100%;
     }
   nav ul li.parent ul.child li:hover {
     background: #e7aa97;
     color: #0f0f0f;
-    width: 100%;
-  }
+    }
   nav ul li.parent ul.child li.active {
     background: #faefe9;
     color: #000000;
@@ -81,7 +85,7 @@ main {
 
 #contactInformation div.contact {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }

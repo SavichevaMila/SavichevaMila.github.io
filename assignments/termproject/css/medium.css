@@ -1,5 +1,9 @@
 @media (min-width:640px) {
 
+/*HEADER*/
+header h1 {
+  font-size:2rem;
+}
 /*NAVIGATION*/
 .navbar button {
   font-size: 1.3rem;
