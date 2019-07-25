@@ -1,12 +1,6 @@
-html {
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
 
 * {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+   box-sizing: border-box;
 }
 * {
   margin: 0;
@@ -435,7 +429,6 @@ html {
   }
   form label.top input,
   form label.top select {
-    -webkit-appearance: none; 
     display: block;
     font-size: 1rem;
     border: solid 1px #000000;
@@ -460,7 +453,6 @@ html {
     border-radius: 10px;
   }
   form textarea {
-    -webkit-appearance: none; 
     display: block;
     font-size: 1rem;
     border: solid 1px #000000;
@@ -474,8 +466,6 @@ html {
   form input.submitBtn {
     border: 1px solid #000000;
     background-color: #4694A6;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
     color: #000000;
     border-radius: 5px;
     padding: 0.75rem 1.5rem;
