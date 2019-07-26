@@ -122,18 +122,18 @@
     }
 
     /*INFORMATION*/
-    section.contact {
+        section.contact {
         display: block;
         grid-template-rows: auto;
         margin-top: 2%;
         height: 20rem;
         position: relative;
       }
-      footer #contactInfoBox {
+      #contactInfoBox {
         margin: 20px 0 0 100px;
         width: 40%;
       }
-      footer section.contact div.map {
+      section.contact div.map {
         width: 50%;
         float: right;
         position: relative;
@@ -153,9 +153,7 @@
         padding-left: 2%;
         width: 40%;
       }
-      .contact {
-        display: flex;
-      }
+      
       #socialMedia {
         margin-top: 20px;
         margin-left: 10px;
