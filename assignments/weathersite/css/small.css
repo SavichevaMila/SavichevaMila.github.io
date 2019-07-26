@@ -25,12 +25,11 @@ header img {
 }
 
 header {
+    width: 100%;
     background: #296CF2;
-    margin: 10px auto;
-    text-align: center;
-    margin: 0px;
 }
-h1 {
+
+header h1 {
     font-family: Pacifico, 'Times New Roman', Times, serif;
     font-size: 45px;
     color: #ffffff;
@@ -38,7 +37,7 @@ h1 {
     padding-top: 10px;
 }
 
-.motto {
+div.motto {
     margin: 0px;
     padding-bottom: 10px;
     color: #ffffff;
