@@ -150,6 +150,10 @@
         font-size: 1.1em;
       }
       
+      .contactText h3 {
+        text-align: left;
+      }
+
         #socialMedia {
         margin-top: 20px;
         margin-left: 10px;
