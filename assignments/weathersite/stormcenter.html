@@ -9,17 +9,14 @@
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" href="css/large.css">
         <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="jquery-ui-1.10.3/themes/base/jquery.ui.all.css"/>
-        <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-1.7-development-only.js"></script>
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-        <script type="text/javascript" src="jquery-ui-1.10.3/ui/jquery.ui.core.js"></script>
-        <script type="text/javascript" src="jquery-ui-1.10.3/ui/jquery.ui.widget.js"></script>
-        <script type="text/javascript" src="jquery-ui-1.10.3/ui/jquery.ui.datepicker.js"></script>
+        <link rel="stylesheet" type="text/css" href="jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> 
+        <script type="text/javascript" src="jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
         <script type="text/javascript">
             $(function(){
                 if(!Modernizr.inputtypes.date) {
                     console.log("The 'date' input type is not supported, so using JQueryUI datepicker instead.");
-                    $("#theDate").datepicker();
+                    $("#datapicker").datepicker();
                 }
             });
         </script>
@@ -86,7 +83,7 @@
                         <legend> Storm Details </legend>
                          
                           <label class="row"> Storm Date: </label>
-                          <input name="storm_date" type="date">                        
+                          <input name="storm_date" type="date" id="datapicker">                        
                         
                           <label class="row"> Storm Type </label> <input list="storm_types" placeholder="What kind of storm is it?">
   		                    <datalist id="storm_types">\
