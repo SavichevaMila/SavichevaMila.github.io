@@ -1,4 +1,7 @@
-
+* {
+    box-sizing: border-box;
+ }
+ 
 /*HEADER*/
 
 .head {
@@ -29,7 +32,7 @@ header {
     background: #296CF2;
 }
 
-headerh1 {
+header h1 {
     font-family: Pacifico, 'Times New Roman', Times, serif;
     font-size: 45px;
     color: #ffffff;
@@ -53,6 +56,8 @@ h2,h3,h4 {
 .headerNav {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
   }
   .navbar {
     margin-top: 10px;
