@@ -131,7 +131,7 @@
       }
       #contactInfoBox {
         margin: 20px 0 0 100px;
-        width: 40%;
+        width: 45%;
       }
       section.contact div.map {
         width: 50%;
@@ -149,12 +149,8 @@
       .contactText p {
         font-size: 1.1em;
       }
-      #phone {
-        padding-left: 2%;
-        width: 40%;
-      }
       
-      #socialMedia {
+        #socialMedia {
         margin-top: 20px;
         margin-left: 10px;
       }
