@@ -143,9 +143,9 @@ p {
 }
 
 .current img {
-    margin: 10px auto;
-    border: 1px solid #296CF2;
-    width: 100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
    }
 
 .current h3 {
