@@ -8,7 +8,22 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" href="css/large.css">
-        <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="jquery-ui-1.10.3/themes/base/jquery.ui.all.css"/>
+        <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-1.7-development-only.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="jquery-ui-1.10.3/ui/jquery.ui.core.js"></script>
+        <script type="text/javascript" src="jquery-ui-1.10.3/ui/jquery.ui.widget.js"></script>
+        <script type="text/javascript" src="jquery-ui-1.10.3/ui/jquery.ui.datepicker.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                if(!Modernizr.inputtypes.date) {
+                    console.log("The 'date' input type is not supported, so using JQueryUI datepicker instead.");
+                    $("#theDate").datepicker();
+                }
+            });
+        </script>
+ 
     </head>
     <body>
         <header>
@@ -120,14 +135,6 @@
         <script src="js/hamburger.js"></script> 
         <script src="js/currentdate.js"></script>
         <script src="js/rate.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="http://cdn.jsdelivr.net/webshim/1.12.4/extras/modernizr-custom.js"></script>
-        <script src="http://cdn.jsdelivr.net/webshim/1.12.4/polyfiller.js"></script>
-        <script>
-            webshims.setOptions('waitReady', false);
-            webshims.setOptions('forms-ext', {type: 'date'});            
-            webshims.polyfill('forms forms-ext');
-        </script>
-
+        
     </body>
 </html>
