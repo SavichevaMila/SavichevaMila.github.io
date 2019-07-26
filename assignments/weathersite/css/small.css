@@ -1,12 +1,4 @@
 
-* {
-    box-sizing: border-box;
- }
- * {
-   margin: 0;
-   padding: 0;
- }
- 
 /*HEADER*/
 
 .head {
@@ -37,7 +29,7 @@ header {
     background: #296CF2;
 }
 
-header h1 {
+headerh1 {
     font-family: Pacifico, 'Times New Roman', Times, serif;
     font-size: 45px;
     color: #ffffff;
