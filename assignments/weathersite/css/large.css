@@ -1,25 +1,29 @@
 /*NAVIGATION*/
 @media (min-width: 48em) {
 
-    .navigation li:first-child {
-         display: none;
-    }
-    .navigation li { 
-        display: block;
-        flex: 1 1 auto;
-        margin-right: 1rem;
-    }
-    .navigation { 
-        flex-direction: row;
-    }  
-
-    .navigation li a {
-        color: #ffffff;
-    }
-
-    nav {
-        max-width: 100%;
-    }
+    /*NAVIGATION*/
+.navbar button {
+    display: none;
+  }
+  
+  .primaryNav {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  nav ul.hide {
+    display: flex;
+  }
+  nav ul li {
+    width: 20%;
+    border-bottom: none;
+    font-size: 1.2rem;
+    line-height: 50px;
+    display: block;
+  }
+  .link {
+    border: none;
+  }
+  
 
     /*SUMMARY*/
     .current {
