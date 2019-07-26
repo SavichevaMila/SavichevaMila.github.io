@@ -306,6 +306,7 @@ figcaption {
 
 
 /*STORM CENTER*/
+
 div.formContainer form {
     display: flex;
     flex-direction: column;
@@ -422,7 +423,7 @@ div.formContainer form {
     border-radius: 10px;
     padding: 10px;
     margin-top: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 16px;
     
 }
