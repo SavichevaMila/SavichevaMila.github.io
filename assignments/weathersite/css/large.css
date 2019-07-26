@@ -9,6 +9,9 @@
   .primaryNav {
     flex-direction: row;
     justify-content: space-around;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
   nav ul.hide {
     display: flex;
