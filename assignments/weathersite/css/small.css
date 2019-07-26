@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
  }
- 
+
 /*HEADER*/
 
 .head {
@@ -30,6 +30,8 @@ header img {
 header {
     width: 100%;
     background: #296CF2;
+    margin: 0;
+    padding: 0;
 }
 
 header h1 {
@@ -56,8 +58,6 @@ h2,h3,h4 {
 .headerNav {
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
   }
   .navbar {
     margin-top: 10px;
