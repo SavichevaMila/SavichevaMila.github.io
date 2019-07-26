@@ -42,6 +42,7 @@ div.motto {
     padding-bottom: 10px;
     color: #ffffff;
     font-size: 20px;
+    text-transform: uppercase;
 }
 
 h2,h3,h4 {
