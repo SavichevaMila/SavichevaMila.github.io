@@ -22,8 +22,7 @@
   }
   .link {
     border: none;
-  }
-  
+  } 
 
     /*SUMMARY*/
     .current {
@@ -120,37 +119,47 @@
     }
 
     /*INFORMATION*/
-    .contact h3 {
-        line-height: .1;
-        padding-left: 40px;
-        text-align: left;
+    section.contact {
+        display: block;
+        grid-template-rows: auto;
+        margin-top: 2%;
+        height: 20rem;
+        position: relative;
+      }
+      footer #contactInfoBox {
+        margin: 20px 0 0 100px;
+        width: 40%;
+      }
+      footer section.contact div.map {
+        width: 50%;
+        float: right;
+        position: relative;
+        
+        margin-top: -170px;
+        margin-right: 100px;
+      }
+      
+       section.contact iframe {
+        height: 250px;
+        width: 100%
     }
-
-    .contact p {
-        line-height: .1;
-        padding-left: 40px;
-        text-align: left;
-    }
-
-
-    .information {
+      .contactText p {
+        font-size: 1.1em;
+      }
+      #phone {
+        padding-left: 2%;
+        width: 40%;
+      }
+      .contact {
         display: flex;
-        align-items: center;
-        flex-direction: row;
-        background: #6393F2;
-    }
-
-    .contact img {
-        width: 20px;
-        height: 20px;
-    }
-
-     map img {
-        width: 100%;
-        margin-left: 40px;
-        border: 1px solid #296cf2; 
-        box-shadow: 0 0 30px #fff;     
-    }
+      }
+      #socialMedia {
+        margin-top: 20px;
+        margin-left: 10px;
+      }
+      #socialMedia img {
+        width: 35px;
+      }
 
     /*FOOTER*/
    
